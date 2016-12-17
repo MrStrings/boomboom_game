@@ -1,6 +1,6 @@
 /// @description Init variables
 
-explosion_size_left = 1000;
+explosion_size_left = 100;
 explosion_list = ds_list_create();
 
 
