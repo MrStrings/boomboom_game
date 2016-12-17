@@ -89,7 +89,8 @@ if (kLeft && !kRight && !sticking) {
     // Apply acceleration left
     if (vx > 0)
         vx = Approach(vx, 0, tempFric);   
-    vx = Approach(vx, -vxMax, tempAccel);
+   if (vx > -vxMax)
+		vx = Approach(vx, -vxMax, tempAccel);
 // Right
 } else if (kRight && !kLeft && !sticking) {
     facing = 1;
@@ -98,7 +99,9 @@ if (kLeft && !kRight && !sticking) {
     // Apply acceleration right
     if (vx < 0)
         vx = Approach(vx, 0, tempFric);   
-    vx = Approach(vx, vxMax, tempAccel);
+    
+	if (vx < vxMax)
+		vx = Approach(vx, vxMax, tempAccel);
 }
 }
 

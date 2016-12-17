@@ -3096,6 +3096,25 @@
                 "resourcePath": "objects\\oParEnemy\\oParEnemy.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "f6f949d6-6f56-4b7f-b2f8-fedb43826327",
+            "Value": {
+                "id": "cdfb1880-75ba-4646-b7ae-46d52b28b951",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\spawner\\spawner.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [

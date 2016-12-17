@@ -22,6 +22,9 @@ reloadTime = 0.5;
 clingTime   = 2.0;
 airFricForGravity = 0.01;
 
+vx_aux = 0;
+vy_aux = 0;
+
 // Misc ///////////////////////////////////////////////////////////////////////
 
 canShoot = true;
