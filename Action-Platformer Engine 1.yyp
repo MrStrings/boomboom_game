@@ -3115,6 +3115,25 @@
                 "resourcePath": "objects\\spawner\\spawner.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "6027854a-f31e-460b-81ea-c09e8a7c0a27",
+            "Value": {
+                "id": "4bed8e48-351d-4bf1-a4bf-554e520f4966",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oWalkingEnemy\\oWalkingEnemy.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [
