@@ -3039,6 +3039,63 @@
                 "resourcePath": "shaders\\shader_0\\shader_0.yy",
                 "resourceType": "GMShader"
             }
+        },
+        {
+            "Key": "2e03d23e-ee29-49b5-bcc9-2af48b766105",
+            "Value": {
+                "id": "5f9c209b-d65b-461d-b932-75771adac45d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\\2e03d23e-ee29-49b5-bcc9-2af48b766105.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d5458469-9a0c-41b3-b4ec-6ceb86a85846",
+            "Value": {
+                "id": "7918c92c-417f-4b01-9930-4b591b4950d9",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oFlyingEnemy\\oFlyingEnemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "057721de-c83b-4f0f-b1a8-33d74862b723",
+            "Value": {
+                "id": "3b815465-1f72-4960-9d33-c0b111da9399",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oParEnemy\\oParEnemy.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [

@@ -6,7 +6,8 @@
     "children": [
         "b13df2fa-35b1-461d-a969-33e0c5b468c9",
         "fc270fcd-7ed9-4f7b-a0aa-e16434680619",
-        "5b2dfe54-479c-462a-9bf7-11ceb62c9149"
+        "5b2dfe54-479c-462a-9bf7-11ceb62c9149",
+        "057721de-c83b-4f0f-b1a8-33d74862b723"
     ],
     "filterType": "GMObject",
     "folderName": "Parent",
