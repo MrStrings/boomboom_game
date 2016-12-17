@@ -38,5 +38,3 @@ if(launch) {
     }
 }
 
-show_debug_message(string(cos(image_angle)) + " " + string(sin(image_angle)));
-
