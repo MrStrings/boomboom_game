@@ -6,9 +6,11 @@ with(oPlayer) {
         other.sprite_index = sSpringJump;
 		other.image_index = 0;
         
+		vx *= 0.5;
+		vy *= 0.5;
         
-        vy = - 2 * jumpHeight * cosine;
-		vx = - 2 * jumpHeight * sine;
+        vy += - 2 * jumpHeight * cosine;
+		vx += - 2 * jumpHeight * sine;
     }
 }
 

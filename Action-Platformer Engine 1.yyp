@@ -2922,7 +2922,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\\camera_obj\\camera_obj.yy",
+                "resourcePath": "objects\\oCamera\\oCamera.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -3020,6 +3020,25 @@
                 "resourcePath": "sprites\\sprite_61\\sprite_61.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "41e23ff1-ea87-4414-896a-99a4f012a887",
+            "Value": {
+                "id": "9d18474c-9887-4c77-8326-fca980063982",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "shaders\\shader_0\\shader_0.yy",
+                "resourceType": "GMShader"
+            }
         }
     ],
     "room_order": [
@@ -3038,8 +3057,9 @@
         "30fc223e-34b9-4db9-85ea-0baa07609d13",
         "cfd34408-01b8-41b3-90b2-311db8a8abc3",
         "68c6fe73-b890-4952-85ec-be05c42fb3de",
+        "b3af477c-a979-4380-8b84-65780ed3fc56",
         "c3474a5b-cdb6-4536-b688-0273200034b6",
-        "b3af477c-a979-4380-8b84-65780ed3fc56"
+        "2dda5a58-b368-4917-9ef8-580ee49c3d2a"
     ],
     "tutorial": ""
 }

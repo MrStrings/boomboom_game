@@ -1,4 +1,4 @@
-/// @description Accelerate
+/// @description Accelerate and Collision
 
 
 if (speed < 25)
@@ -8,7 +8,7 @@ if (speed < 25)
 if (collided) {
 	instance_create(x,y, explosion_controller);
 	instance_destroy();
-	instance_create(0,0, screen_shake);
+	global.shake = 10;
 }
 
 i++;

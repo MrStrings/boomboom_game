@@ -4,18 +4,18 @@
 
 var kLeft, kRight, kUp, kDown, kshoot, kJump, kJumpRelease, kAction, kBlock, kRollL, kRollR, tempAccel, tempFric;
 
-kLeft        = keyboard_check(vk_left)  || gamepad_axis_value(0, gp_axislh) < -0.4;
-kRight       = keyboard_check(vk_right) || gamepad_axis_value(0, gp_axislh) >  0.4;
-kUp          = keyboard_check(vk_up)    || gamepad_axis_value(0, gp_axislv) < -0.4;
-kDown        = keyboard_check(vk_down)  || gamepad_axis_value(0, gp_axislv) >  0.4;
+kLeft        = keyboard_check(ord("A"))  || gamepad_axis_value(0, gp_axislh) < -0.4;
+kRight       = keyboard_check(ord("D")) || gamepad_axis_value(0, gp_axislh) >  0.4;
+kUp          = keyboard_check(ord("W"))    || gamepad_axis_value(0, gp_axislv) < -0.4;
+kDown        = keyboard_check(ord("S"))  || gamepad_axis_value(0, gp_axislv) >  0.4;
 
-kJump        = keyboard_check_pressed(ord("Z"))  || gamepad_button_check_pressed(0, gp_face1);
+kJump        = keyboard_check_pressed(vk_space)  || gamepad_button_check_pressed(0, gp_face1);
 kJumpRelease = keyboard_check_released(ord("Z")) || gamepad_button_check_released(0, gp_face1);
 
 kAction      = keyboard_check_pressed(ord("X"))  || gamepad_button_check_pressed(0, gp_face3);
 kBlock       = keyboard_check(ord("C"))          || gamepad_button_check(0, gp_face2);
-kRollL       = keyboard_check_pressed(ord("A"))  || gamepad_button_check_pressed(0, gp_shoulderlb);
-kRollR       = keyboard_check_pressed(ord("D"))  || gamepad_button_check_pressed(0, gp_shoulderrb);
+kRollL       = keyboard_check_pressed(ord("Q"))  || gamepad_button_check_pressed(0, gp_shoulderlb);
+kRollR       = keyboard_check_pressed(ord("E"))  || gamepad_button_check_pressed(0, gp_shoulderrb);
 kshoot		 = mouse_check_button_pressed(mb_left);
 
 
@@ -230,13 +230,16 @@ if (!kBlock && kAction) {
 blocking = kBlock;
 
 //shoot
-if (kshoot) {
+if (kshoot and canShoot) {
 	dir = point_direction(x, y, mouse_x, mouse_y);
 	instance_create(x + 10 * cos(degtorad(dir)) ,
 	y - 10 * sin(degtorad(dir)), bullet);
 	
 	vx += (gun_kickback * cos(degtorad(dir + 180)));
 	vy -= (gun_kickback * sin(degtorad(dir+180)));
+	
+	canShoot = false
+	alarm[2] = room_speed * 1;
 }
 
 /* */
