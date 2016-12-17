@@ -75,7 +75,8 @@ if (!onGround) {
         vy = Approach(vy, vyMax, gravSlide);
     } else {
         // Fall normally
-        vy = Approach(vy, vyMax, gravNorm);
+        //vy = Approach(vy, vyMax, gravNorm);
+		vy += (gravNorm + airFricForGravity * (-vy));
     }
 }
 
@@ -239,7 +240,7 @@ if (kshoot and canShoot) {
 	vy -= (gun_kickback * sin(degtorad(dir+180)));
 	
 	canShoot = false
-	alarm[2] = room_speed * 1;
+	alarm[2] = room_speed * reloadTime;
 }
 
 /* */

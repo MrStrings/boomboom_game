@@ -16,9 +16,11 @@ vyMax       = 10.0;
 jumpHeight  = 8.00;
 gravNorm    = 1;
 gravSlide   = 0.25; 
-gun_kickback = 10;
+gun_kickback = 12;
+reloadTime = 0.5;
 
 clingTime   = 2.0;
+airFricForGravity = 0.01;
 
 // Misc ///////////////////////////////////////////////////////////////////////
 

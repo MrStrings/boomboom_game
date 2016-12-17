@@ -29,8 +29,8 @@
 if(global.shake > 0) {
 	camera_set_view_pos(
 					view_camera[0], 
-					700 + irandom_range(-5, 5), 
-					800 + irandom_range(-5, 5));
+					700 + irandom_range(-5 - global.shake/2, 5 + global.shake/2), 
+					800 + irandom_range(-5 - global.shake/2, 5 + global.shake/2));
 	global.shake--;
 }
 else {
