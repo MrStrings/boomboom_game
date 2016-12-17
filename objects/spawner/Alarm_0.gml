@@ -6,7 +6,7 @@ if (instance_exists(oPlayer)) {
 		x_target = random_range(750, 1200);
 		y_target = random_range(840, 1100);
 		
-		while (abs(x_target-x) < 20 || abs(y_target-y) < 20) {
+		while (abs(x_target-x) < 40 || abs(y_target-y) < 40) {
 			x_target = random_range(750, 1200);
 			y_target = random_range(840, 1100);
 		}
