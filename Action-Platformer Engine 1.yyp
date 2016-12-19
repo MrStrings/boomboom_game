@@ -3115,6 +3115,63 @@
                 "resourcePath": "sprites\\sprite_63\\sprite_63.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "f696fee8-3dc2-41f0-a381-0ac12df0246d",
+            "Value": {
+                "id": "e65394b3-6c0d-48ca-b4fb-669d4518e392",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\sBullet\\sBullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "347076eb-b963-4bf8-a493-c72151008ad5",
+            "Value": {
+                "id": "35d7eeb5-3ab1-49cb-8d8d-2fcb7c98829f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oShootingEnemy\\oShootingEnemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "80c109dd-76c1-45d8-8032-39c8b440713a",
+            "Value": {
+                "id": "ee1c54d5-2544-4c86-8e6c-5ba3064ad5c7",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oPistolBullet\\oPistolBullet.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [
