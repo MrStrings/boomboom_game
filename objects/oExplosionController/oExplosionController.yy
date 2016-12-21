@@ -2,7 +2,7 @@
     "id": "022a8a98-a90e-4035-ae0b-c872b0940e2f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "explosion_controller",
+    "name": "oExplosionController",
     "eventList": [
         {
             "id": "a39520d8-8d29-484d-8947-dabb2dce5a47",

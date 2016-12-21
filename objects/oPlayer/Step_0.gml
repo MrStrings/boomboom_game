@@ -237,7 +237,7 @@ blocking = kBlock;
 if (kshoot and canShoot) {
 	dir = point_direction(x, y, mouse_x, mouse_y);
 	instance_create(x + 10 * cos(degtorad(dir)) ,
-	y - 10 * sin(degtorad(dir)), bullet);
+	y - 10 * sin(degtorad(dir)), oRocket);
 	
 	vx += (gun_kickback * cos(degtorad(dir + 180)));
 	vy -= (gun_kickback * sin(degtorad(dir+180)));

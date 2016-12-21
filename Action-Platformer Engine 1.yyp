@@ -2751,7 +2751,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\\explosion\\explosion.yy",
+                "resourcePath": "objects\\oExplosion\\oExplosion.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2789,7 +2789,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\\explosion_controller\\explosion_controller.yy",
+                "resourcePath": "objects\\oExplosionController\\oExplosionController.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2827,7 +2827,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\\bullet\\bullet.yy",
+                "resourcePath": "objects\\oRocket\\oRocket.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2884,7 +2884,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\\screen_shake\\screen_shake.yy",
+                "resourcePath": "objects\\oScreenShake\\oScreenShake.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -3055,7 +3055,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\\spawner\\spawner.yy",
+                "resourcePath": "objects\\oSpawner\\oSpawner.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -3093,7 +3093,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\\explosion_propagator\\explosion_propagator.yy",
+                "resourcePath": "objects\\oExplosionPropagator\\oExplosionPropagator.yy",
                 "resourceType": "GMObject"
             }
         },

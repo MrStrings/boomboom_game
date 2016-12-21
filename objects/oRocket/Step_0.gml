@@ -6,7 +6,7 @@ if (speed < 25)
 	
 	
 if (collided) {
-	instance_create(x,y, explosion_controller);
+	instance_create(x,y, oExplosionController);
 	instance_destroy();
 	global.shake = 20;
 }

@@ -11,7 +11,7 @@ current_left = 1000;
 living_propagators = 100;
 
 for (i = 0; i < living_propagators; i++) {
-	now = instance_create(x, y, explosion_propagator);
+	now = instance_create(x, y, oExplosionPropagator );
 	
 	with (now) {
 		direction = other.i*360/other.living_propagators;
