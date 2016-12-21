@@ -2770,7 +2770,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\\sprite\\sprite.yy",
+                "resourcePath": "sprites\\sExplosion\\sExplosion.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2846,7 +2846,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\\sprite_56\\sprite_56.yy",
+                "resourcePath": "sprites\\sRocket\\sRocket.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3112,7 +3112,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\\sprite_63\\sprite_63.yy",
+                "resourcePath": "sprites\\sEnemy\\sEnemy.yy",
                 "resourceType": "GMSprite"
             }
         },
