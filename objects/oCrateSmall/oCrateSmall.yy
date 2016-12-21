@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "oCrateSmall",
     "eventList": [
-        
+        {
+            "id": "9fea2906-a886-4e82-aab2-554b629b7090",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 1,
+            "m_owner": "98fe43d3-b934-439e-8f0e-67c7171f581f"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "1a222f38-c6be-4135-9d09-ca45e49fa677",

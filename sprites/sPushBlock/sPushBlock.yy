@@ -1,7 +1,7 @@
 {
     "id": "60c35b4e-1c4e-4753-bc4a-a8986d4e4620",
     "modelName": "GMSprite",
-    "mvc": "1.1",
+    "mvc": "1.11",
     "name": "sPushBlock",
     "For3D": false,
     "HTile": false,
@@ -10,7 +10,7 @@
     "bbox_left": 0,
     "bbox_right": 31,
     "bbox_top": 0,
-    "bboxmode": 0,
+    "bboxmode": 1,
     "colkind": 1,
     "coltolerance": 0,
     "frames": [

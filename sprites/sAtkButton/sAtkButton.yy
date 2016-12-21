@@ -1,7 +1,7 @@
 {
     "id": "1f97ff5d-1b80-498e-8383-3f366d18c598",
     "modelName": "GMSprite",
-    "mvc": "1.1",
+    "mvc": "1.11",
     "name": "sAtkButton",
     "For3D": false,
     "HTile": false,
@@ -10,7 +10,7 @@
     "bbox_left": 0,
     "bbox_right": 63,
     "bbox_top": 0,
-    "bboxmode": 0,
+    "bboxmode": 1,
     "colkind": 1,
     "coltolerance": 0,
     "frames": [

@@ -1,7 +1,7 @@
 {
     "id": "0cc3094c-2dcb-498b-84f1-a72c9d2ffb89",
     "modelName": "GMSprite",
-    "mvc": "1.1",
+    "mvc": "1.11",
     "name": "sPlayerSlideShield",
     "For3D": false,
     "HTile": false,

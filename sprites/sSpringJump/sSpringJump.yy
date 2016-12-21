@@ -1,7 +1,7 @@
 {
     "id": "53e89790-eb30-4373-ac39-f8cdcecf1cae",
     "modelName": "GMSprite",
-    "mvc": "1.1",
+    "mvc": "1.11",
     "name": "sSpringJump",
     "For3D": false,
     "HTile": false,
@@ -10,7 +10,7 @@
     "bbox_left": 6,
     "bbox_right": 24,
     "bbox_top": 24,
-    "bboxmode": 0,
+    "bboxmode": 2,
     "colkind": 1,
     "coltolerance": 0,
     "frames": [

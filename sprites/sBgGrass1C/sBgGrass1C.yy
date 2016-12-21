@@ -1,7 +1,7 @@
 {
     "id": "77232170-dbb6-4cae-94ac-e50acd9447ae",
     "modelName": "GMSprite",
-    "mvc": "1.1",
+    "mvc": "1.11",
     "name": "sBgGrass1C",
     "For3D": false,
     "HTile": false,
@@ -10,7 +10,7 @@
     "bbox_left": 0,
     "bbox_right": 3,
     "bbox_top": 0,
-    "bboxmode": 0,
+    "bboxmode": 1,
     "colkind": 1,
     "coltolerance": 0,
     "frames": [

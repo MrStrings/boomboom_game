@@ -1,7 +1,7 @@
 {
     "id": "7b7f461d-391d-4da0-8302-a22d2d21835b",
     "modelName": "GMSprite",
-    "mvc": "1.1",
+    "mvc": "1.11",
     "name": "sCoin",
     "For3D": false,
     "HTile": false,
@@ -10,7 +10,7 @@
     "bbox_left": 19,
     "bbox_right": 29,
     "bbox_top": 19,
-    "bboxmode": 0,
+    "bboxmode": 2,
     "colkind": 1,
     "coltolerance": 0,
     "frames": [

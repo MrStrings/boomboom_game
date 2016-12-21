@@ -3172,6 +3172,44 @@
                 "resourcePath": "objects\\oPistolBullet\\oPistolBullet.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "e1bc193c-aaeb-4258-8108-2ddaf2bcd5e6",
+            "Value": {
+                "id": "a7e4c1d3-9e99-47ce-a5dd-9b247291ea8a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\\e1bc193c-aaeb-4258-8108-2ddaf2bcd5e6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4a1aeb6d-2551-4675-a488-9776a03d2cd6",
+            "Value": {
+                "id": "a8ee3409-0109-46c3-8cad-d9142b142c8d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oParticleDestroy\\oParticleDestroy.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [

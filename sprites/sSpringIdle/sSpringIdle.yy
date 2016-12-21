@@ -1,7 +1,7 @@
 {
     "id": "5286cbef-8329-4303-870c-cdfbf3a0a87b",
     "modelName": "GMSprite",
-    "mvc": "1.1",
+    "mvc": "1.11",
     "name": "sSpringIdle",
     "For3D": false,
     "HTile": false,
@@ -10,7 +10,7 @@
     "bbox_left": 6,
     "bbox_right": 24,
     "bbox_top": 24,
-    "bboxmode": 0,
+    "bboxmode": 2,
     "colkind": 1,
     "coltolerance": 0,
     "frames": [

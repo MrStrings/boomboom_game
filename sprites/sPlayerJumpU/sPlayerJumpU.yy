@@ -1,7 +1,7 @@
 {
     "id": "7b0636e6-e0b7-45ee-9f70-71f75957165d",
     "modelName": "GMSprite",
-    "mvc": "1.1",
+    "mvc": "1.11",
     "name": "sPlayerJumpU",
     "For3D": false,
     "HTile": false,

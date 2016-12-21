@@ -1,7 +1,7 @@
 {
     "id": "50be6a7c-fbfd-47c8-9faf-0f2a5c727041",
     "modelName": "GMSprite",
-    "mvc": "1.1",
+    "mvc": "1.11",
     "name": "sPlayerIdleShield",
     "For3D": false,
     "HTile": false,

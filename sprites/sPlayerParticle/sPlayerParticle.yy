@@ -1,7 +1,7 @@
 {
     "id": "84cd8712-f4dc-4cfa-bf3e-50edbc25da47",
     "modelName": "GMSprite",
-    "mvc": "1.1",
+    "mvc": "1.11",
     "name": "sPlayerParticle",
     "For3D": false,
     "HTile": false,

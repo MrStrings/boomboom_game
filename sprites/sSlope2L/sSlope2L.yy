@@ -1,7 +1,7 @@
 {
     "id": "ebe0036c-cf72-4ef6-82cd-8e9111e1bf7b",
     "modelName": "GMSprite",
-    "mvc": "1.1",
+    "mvc": "1.11",
     "name": "sSlope2L",
     "For3D": false,
     "HTile": false,
@@ -10,7 +10,7 @@
     "bbox_left": 0,
     "bbox_right": 31,
     "bbox_top": 0,
-    "bboxmode": 0,
+    "bboxmode": 1,
     "colkind": 0,
     "coltolerance": 0,
     "frames": [

@@ -1,7 +1,7 @@
 {
     "id": "a04acc67-0f75-4d00-8d25-86ef04b92229",
     "modelName": "GMSprite",
-    "mvc": "1.1",
+    "mvc": "1.11",
     "name": "sPlayerRoll",
     "For3D": false,
     "HTile": false,

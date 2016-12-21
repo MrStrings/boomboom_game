@@ -1,7 +1,7 @@
 {
     "id": "eba34666-91ae-47d0-ac20-2b54b20c4e69",
     "modelName": "GMSprite",
-    "mvc": "1.1",
+    "mvc": "1.11",
     "name": "sPlayerMask",
     "For3D": false,
     "HTile": false,
@@ -10,7 +10,7 @@
     "bbox_left": 1,
     "bbox_right": 14,
     "bbox_top": 1,
-    "bboxmode": 0,
+    "bboxmode": 2,
     "colkind": 1,
     "coltolerance": 0,
     "frames": [

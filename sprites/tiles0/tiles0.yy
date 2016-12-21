@@ -1,7 +1,7 @@
 {
     "id": "6d41dcff-d57c-4bc4-a381-e1eea6c47fc7",
     "modelName": "GMSprite",
-    "mvc": "1.1",
+    "mvc": "1.11",
     "name": "tiles0",
     "For3D": false,
     "HTile": true,
@@ -10,7 +10,7 @@
     "bbox_left": 0,
     "bbox_right": 63,
     "bbox_top": 0,
-    "bboxmode": 0,
+    "bboxmode": 2,
     "colkind": 1,
     "coltolerance": 0,
     "frames": [
