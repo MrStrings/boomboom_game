@@ -1,5 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-instance_destroy();
-with(blood) instance_destroy();
+if(canEnd) image_alpha += 0.1;

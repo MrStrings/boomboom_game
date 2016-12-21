@@ -13,3 +13,4 @@ for(i = 0; i < ww; i += chunck) {
 	}
 }
 
+instance_create(x, y, oFxRoomRestart);

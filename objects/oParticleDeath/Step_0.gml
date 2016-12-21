@@ -8,6 +8,8 @@ vx = Approach(vx, 0, fric);
 x += vx;
 y += vy;
 
-blood.x = x;
-blood.y = y;
-blood.dir = dir;
+if(instance_exists(blood)) {
+	blood.x = x;
+	blood.y = y;
+	blood.dir = dir;
+}

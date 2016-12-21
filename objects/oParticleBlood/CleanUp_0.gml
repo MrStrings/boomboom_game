@@ -1,5 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-instance_destroy();
-with(blood) instance_destroy();
+part_emitter_destroy_all(global.partBlood_sys);

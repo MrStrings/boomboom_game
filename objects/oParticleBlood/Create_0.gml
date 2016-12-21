@@ -7,8 +7,6 @@ dir = 270;
 
 // Particle System //
 
-partBlood_sys = part_system_create();
-part_system_depth(partBlood_sys, 0);
 
 
 // Particle Itself //
@@ -27,6 +25,10 @@ part_type_life(partBlood, room_speed * 2, room_speed * 4);
 
 // Particle Emitter //
 
-partBlood_emit = part_emitter_create(partBlood_sys);
-part_emitter_region(partBlood_sys, partBlood_emit, x - 4, x + 4, y - 4, y + 4, ps_shape_ellipse, ps_distr_gaussian);
-part_emitter_stream(partBlood_sys, partBlood_emit, partBlood, 1);
+partBlood_emit = part_emitter_create(global.partBlood_sys);
+part_emitter_region(global.partBlood_sys, partBlood_emit, x - 4, x + 4, y - 4, y + 4, ps_shape_ellipse, ps_distr_gaussian);
+part_emitter_stream(global.partBlood_sys, partBlood_emit, partBlood, 1);
+
+// Alarm to Destroy //
+
+//alarm[0] = 1 * room_speed;
