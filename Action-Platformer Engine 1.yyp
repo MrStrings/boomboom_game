@@ -3210,6 +3210,44 @@
                 "resourcePath": "objects\\oParticleDestroy\\oParticleDestroy.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "5b822359-a867-4636-8dda-c19a0c2b95c7",
+            "Value": {
+                "id": "5f26e80d-573a-4494-b55b-1a7379f1edaf",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oParticleBlood\\oParticleBlood.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c0109916-1155-44b7-90e4-c96535c00c2f",
+            "Value": {
+                "id": "edd7f31d-0ec8-49eb-91ce-47973aec75b6",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oParticleDeath\\oParticleDeath.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [
