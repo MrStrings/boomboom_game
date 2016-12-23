@@ -3248,6 +3248,63 @@
                 "resourcePath": "objects\\oParticleDeath\\oParticleDeath.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "6e20d096-0da9-4b52-87b7-46d44bf5fd85",
+            "Value": {
+                "id": "7cbc039c-474a-4cb6-a783-782bcb09bd34",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oBloodSurface\\oBloodSurface.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bedbde17-345e-4c00-a428-f86dcde6cd91",
+            "Value": {
+                "id": "06fa7d83-fb64-4351-99f4-886e631a1861",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oBloodSplatter\\oBloodSplatter.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ba48c664-818e-48a7-8673-34a7641dca3e",
+            "Value": {
+                "id": "e617799f-e73c-4991-9d84-833d684e40da",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\sBlood\\sBlood.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "room_order": [

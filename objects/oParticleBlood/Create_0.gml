@@ -4,6 +4,9 @@
 // Control Varables //
 
 dir = 270;
+emitDelay = random_range(0.01, 0.1) * room_speed;
+canEmit = false;
+alarm[0] = emitDelay;
 
 // Particle System //
 
@@ -14,7 +17,7 @@ dir = 270;
 partBlood = part_type_create();
 part_type_shape(partBlood, pt_shape_disk);
 part_type_scale(partBlood, 1, 1);
-part_type_size(partBlood, 0.1, 0.2, -0.005, 0);
+part_type_size(partBlood, 0.01, 0.1, -0.005, 0);
 part_type_color1(partBlood, c_red);
 part_type_alpha2(partBlood,  1, 0.5);
 part_type_speed(partBlood, 1, 2, 0, 0);
