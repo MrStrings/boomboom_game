@@ -2,7 +2,7 @@
     "id": "6e20d096-0da9-4b52-87b7-46d44bf5fd85",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oBloodSurface",
+    "name": "oControllerSurface",
     "eventList": [
         {
             "id": "cb0eefe8-2a60-45d2-a554-6b14070f88d3",

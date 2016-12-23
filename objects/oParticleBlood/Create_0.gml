@@ -31,7 +31,3 @@ part_type_life(partBlood, room_speed * 2, room_speed * 4);
 partBlood_emit = part_emitter_create(global.partBlood_sys);
 part_emitter_region(global.partBlood_sys, partBlood_emit, x - 4, x + 4, y - 4, y + 4, ps_shape_ellipse, ps_distr_gaussian);
 part_emitter_stream(global.partBlood_sys, partBlood_emit, partBlood, 1);
-
-// Alarm to Destroy //
-
-//alarm[0] = 1 * room_speed;

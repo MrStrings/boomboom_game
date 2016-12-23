@@ -3264,7 +3264,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\\oBloodSurface\\oBloodSurface.yy",
+                "resourcePath": "objects\\oControllerSurface\\oControllerSurface.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -3304,6 +3304,25 @@
                 ],
                 "resourcePath": "sprites\\sBlood\\sBlood.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9d012823-f638-4fff-b89c-a0c08bfc53fa",
+            "Value": {
+                "id": "bffd8457-dfb8-45b5-b9bd-345c597a766d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\\9d012823-f638-4fff-b89c-a0c08bfc53fa.yy",
+                "resourceType": "GMFolder"
             }
         }
     ],
