@@ -61,3 +61,5 @@ if (onGround)
 else
     draw_sprite_ext(sprite_index, image_index, x, y, facing * xscale, yscale, 0, c_white, image_alpha);
 
+var dir = -90 + point_direction(x, y, mouse_x,mouse_y);
+draw_sprite_ext(sAimCircle, 0, x, y, 1, 1, dir, c_white, 1);

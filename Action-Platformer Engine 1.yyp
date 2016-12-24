@@ -3400,6 +3400,25 @@
                 "resourcePath": "scripts\\EnemyCheck\\EnemyCheck.yy",
                 "resourceType": "GMScript"
             }
+        },
+        {
+            "Key": "0f13ddb1-82e9-4a09-a672-ecc1693d8970",
+            "Value": {
+                "id": "770d58ce-d2f9-47dc-8538-e8e1f743c46e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\sAimCircle\\sAimCircle.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "room_order": [

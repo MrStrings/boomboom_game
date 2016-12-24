@@ -16,7 +16,8 @@ else if(movState == FOLLOW) {
 		dir = degtorad(dir);
 		vx = Approach(vx, vxMax * cos(dir), accel);
 		vy = Approach(vy, -vyMax * sin(dir), accel);
-			
+		
+		// Fucking Exception --'
 		repeat(abs(vy)) {
 			if (place_meeting(x, y - 1, oParEntity) and !place_meeting(x, y, oParEntity)) {
 				if(vy < 0) {
