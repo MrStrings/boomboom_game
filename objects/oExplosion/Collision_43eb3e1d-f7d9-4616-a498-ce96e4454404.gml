@@ -1,4 +1,4 @@
-/// @description destroys enemyd
+/// @description destroys enemy
 
 enemy = instance_place(x, y, oParEnemy);
 with (enemy) {
