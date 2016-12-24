@@ -65,4 +65,3 @@ repeat(abs(vx)) {
     else
         vx = 0;
 }
-
