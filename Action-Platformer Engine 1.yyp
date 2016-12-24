@@ -3419,6 +3419,63 @@
                 "resourcePath": "sprites\\sAimCircle\\sAimCircle.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "9b3bd475-2992-4db7-bee3-288f18ee7366",
+            "Value": {
+                "id": "07cee6a3-77a8-4fc6-b883-e38a247e085d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oBlockDestructable\\oBlockDestructable.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "78dc1a8f-ce78-4cd1-94dc-79de3819a236",
+            "Value": {
+                "id": "7d4c5198-532c-4300-b14d-107b544b067c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oParDestructable\\oParDestructable.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "09162727-55a0-44ff-b6d8-1fca308603d9",
+            "Value": {
+                "id": "61f00584-f039-4569-9965-2d45b1f3e9f6",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oParSurfaceSolid\\oParSurfaceSolid.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [

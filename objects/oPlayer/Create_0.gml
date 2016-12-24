@@ -11,6 +11,7 @@ facing = 1;
 
 groundAccel = 1.00;
 groundFric  = 2.00;
+fastFric	= 0.75;
 airAccel    = 0.75;
 airFric     = 0.01;
 vxMax       = 5.50;

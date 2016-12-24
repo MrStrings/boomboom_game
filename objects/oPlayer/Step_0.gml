@@ -47,9 +47,13 @@ if (instance_exists(oTouchCompatible)) {
 // Movement ///////////////////////////////////////////////////////////////////
 
 // Apply the correct form of acceleration and friction
-if (onGround) {  
+if (onGround) {
+	if(abs(vx) > vxMax)
+		tempFric  = fastFric;
+	else
+		tempFric  = groundFric;
     tempAccel = groundAccel;
-    tempFric  = groundFric;
+    
 } else {
     tempAccel = airAccel;
     tempFric  = airFric;
@@ -106,12 +110,12 @@ if (kLeft && !kRight && !sticking) {
 }
 
 // Friction
-if (!kRight && !kLeft) {
+if (!kRight && !kLeft or abs(vx) > vxMax) {
     vx = Approach(vx, 0, tempFric);
     
     if (state != ROLL)
         state = IDLE;
-} 
+}
        
 // Wall jump
 if (kJump && cLeft && !onGround) {
