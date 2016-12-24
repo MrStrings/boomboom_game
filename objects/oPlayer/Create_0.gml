@@ -1,5 +1,7 @@
 /// Variables
 
+Singleton();
+
 // Inherit oParEntity variables
 event_inherited();
 
@@ -16,7 +18,7 @@ vyMax       = 10.0;
 jumpHeight  = 8.00;
 gravNorm    = 1;
 gravSlide   = 0.25; 
-gun_kickback = 12;
+gun_kickback = 15;
 reloadTime = 0.5;
 
 clingTime   = 2.0;

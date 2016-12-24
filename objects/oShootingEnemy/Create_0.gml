@@ -8,4 +8,6 @@ vx = 2;
 // Misc //
 
 canShoot = true;
-reloadTime = 1.0;
+reloadTime = 2.0;
+
+minShootDist = random_range(500, 1000);

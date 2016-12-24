@@ -23,5 +23,8 @@ if(canShoot) {
 	canShoot = false;
 	alarm[0] = reloadTime * room_speed;
 	
-	instance_create(x, y, oPistolBullet);
+	if(instance_exists(oPlayer)) {
+		var dist = distance_to_object(oPlayer)
+		if(dist < minShootDist) instance_create(x, y, oPistolBullet);
+	}
 }

@@ -4,7 +4,7 @@
 vx = 0;
 vy = 0;
 
-spd = 5;
+spd = 8;
 
 
 if (instance_exists(oPlayer)) {
