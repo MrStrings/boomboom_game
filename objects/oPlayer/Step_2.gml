@@ -9,8 +9,13 @@ if (vy < 1 && vy > -1)
     PlatformCheck();
 else
     repeat(abs(vy)) {
-        if (!PlatformCheck())
+        if (!PlatformCheck()) {
+			if (EnemyCheck()) {
+				vy = -jumpHeight * 1.3;
+				break
+			}
             y += sign(vy);
+		}
         else
             break;
     }

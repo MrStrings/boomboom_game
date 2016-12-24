@@ -3381,12 +3381,34 @@
                 "resourcePath": "scripts\\Singleton\\Singleton.yy",
                 "resourceType": "GMScript"
             }
+        },
+        {
+            "Key": "d6d39216-74f5-4e37-a614-7c1f8ec4a6f1",
+            "Value": {
+                "id": "a1640fe0-1bf7-4f4a-992e-a1cb7a6e68e9",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\\EnemyCheck\\EnemyCheck.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "room_order": [
         "e799b949-d059-4be5-b343-ccda1a5d801c"
     ],
     "script_order": [
+        "ed8c2c4b-b873-4f12-9b67-7d16d4734dd7",
+        "d6d39216-74f5-4e37-a614-7c1f8ec4a6f1",
+        "b3e2d5e9-d5ad-42b7-91fb-128d58b37baa",
         "965ec3cf-1076-419b-9d4b-c8f27b182b80",
         "c807189e-37fa-4098-9b3b-e3b630b8e1d5",
         "e5f5bf26-13d8-44d7-aa25-7ae770430006",
@@ -3402,9 +3424,7 @@
         "68c6fe73-b890-4952-85ec-be05c42fb3de",
         "b3af477c-a979-4380-8b84-65780ed3fc56",
         "c3474a5b-cdb6-4536-b688-0273200034b6",
-        "2dda5a58-b368-4917-9ef8-580ee49c3d2a",
-        "b3e2d5e9-d5ad-42b7-91fb-128d58b37baa",
-        "ed8c2c4b-b873-4f12-9b67-7d16d4734dd7"
+        "2dda5a58-b368-4917-9ef8-580ee49c3d2a"
     ],
     "tutorial": ""
 }

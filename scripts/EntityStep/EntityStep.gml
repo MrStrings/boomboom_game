@@ -7,8 +7,11 @@ if (vy < 1 && vy > -1)
     PlatformCheck();
 else
     repeat(abs(vy)) {
-        if (!PlatformCheck())
+        if (!PlatformCheck()) {
+			EnemyCheck();
+			show_debug_message(" got here" )
             y += sign(vy);
+		}
         else
             break;
     }
