@@ -3647,14 +3647,33 @@
                 "resourcePath": "views\\523b8672-eea7-47bf-b6cb-8c2e06608e02-room.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "f7b0e749-5627-41a9-9781-b1d2914e3731",
+            "Value": {
+                "id": "a81da5b1-b8c7-46f0-ace1-0cd904ef4c3c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oFallDeath\\oFallDeath.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [
-        "b12ef98f-7f04-49f3-99b2-04d467b8cfa1",
         "c5bc4cd9-1367-43c9-b869-b2db997705b8",
         "523b8672-eea7-47bf-b6cb-8c2e06608e02",
         "04f3e26d-a3fb-478f-af62-45dbca68fbcd",
         "69c825b3-e55d-4b71-86e7-8129698f7bd7",
+        "b12ef98f-7f04-49f3-99b2-04d467b8cfa1",
         "a4ac6808-4459-44d1-9ca0-93c3226e378d",
         "e799b949-d059-4be5-b343-ccda1a5d801c"
     ],
