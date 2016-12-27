@@ -239,12 +239,14 @@ blocking = kBlock;
 
 //shoot
 if (kshoot and canShoot) {
+	
 	dir = point_direction(x, y, mouse_x, mouse_y);
 	instance_create(x + 20 * cos(degtorad(dir)) ,
 	y - 20 * sin(degtorad(dir)), oRocket);
 	
-	vx += (gun_kickback * cos(degtorad(dir + 180)));
-	vy -= (gun_kickback * sin(degtorad(dir+180)));
+	vx = (gun_kickback * cos(degtorad(dir + 180)));
+	vy = -(gun_kickback * sin(degtorad(dir+180)));
+	
 	
 	canShoot = false
 	alarm[2] = room_speed * reloadTime;
