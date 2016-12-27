@@ -8,7 +8,7 @@ current_left = 1000;
 
 //---------------------------- 2nd test ------------------------------ //
 
-living_propagators = 100;
+living_propagators = 140;
 
 for (i = 0; i < living_propagators; i++) {
 	now = instance_create(x, y, oExplosionPropagator );
