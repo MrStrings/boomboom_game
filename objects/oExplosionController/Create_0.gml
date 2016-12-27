@@ -1,14 +1,14 @@
 /// @description Init variables
 
 explosion_size_left = 1000;
-current_left = 1000;
+current_left = 800;
 
 
 // Propagates explosion
 
 //---------------------------- 2nd test ------------------------------ //
 
-living_propagators = 140;
+living_propagators = 100;
 
 for (i = 0; i < living_propagators; i++) {
 	now = instance_create(x, y, oExplosionPropagator );
