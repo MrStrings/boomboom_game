@@ -9,7 +9,8 @@ else		bboxside = bbox_left;
 var vxTemp = vx;
 repeat(abs(vxTemp)) {
 	if(collision_point(bboxside, bbox_bottom + 1, oParSolid, false, noone) 
-	   and !collision_point(bboxside + sign(vx), bbox_bottom + 1, oParSolid, false, noone)) {
+	   and !collision_point(bboxside + sign(vx), bbox_bottom + 1, oParSolid, false, noone)
+	    or place_meeting(x + sign(vx), y, oParSolid)) {
 		vx *= -1;
 		vxTemp = 0;
 	}

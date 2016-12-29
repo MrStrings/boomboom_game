@@ -6,6 +6,9 @@ repeat(abs(vx)) {
 		with(oPlayer) { instance_destroy(); }
 		instance_destroy();
 	}
+	
+	if(place_meeting(x + sign(vx), y, oParSolid))
+		break;
 	x += sign(vx);
 }
 
@@ -15,5 +18,8 @@ repeat(abs(vy)) {
 		with(oPlayer) { instance_destroy(); }
 		instance_destroy();
 	}
+	
+	if(place_meeting(x , y + sign(vy), oParSolid))
+		break;
 	y += sign(vy);
 }
