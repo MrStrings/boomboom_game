@@ -8,7 +8,7 @@ repeat(abs(vx)) {
 	}
 	
 	if(place_meeting(x + sign(vx), y, oParSolid))
-		break;
+		instance_destroy();
 	x += sign(vx);
 }
 
@@ -20,6 +20,6 @@ repeat(abs(vy)) {
 	}
 	
 	if(place_meeting(x , y + sign(vy), oParSolid))
-		break;
+		instance_destroy();
 	y += sign(vy);
 }

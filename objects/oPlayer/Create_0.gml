@@ -20,7 +20,7 @@ jumpHeight  = 9.00;
 gravNorm    = 1;
 gravSlide   = 0.25; 
 gun_kickback = 15;
-reloadTime = 0.5;
+reloadTime = 0.85;
 
 clingTime   = 2.0;
 airFricForGravity = 0.01;
