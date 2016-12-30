@@ -3685,9 +3685,67 @@
                 "resourcePath": "rooms\\rLevel_6\\rLevel_6.yy",
                 "resourceType": "GMRoom"
             }
+        },
+        {
+            "Key": "f19b40be-770b-4f1f-8af9-c18553a0c33a",
+            "Value": {
+                "id": "41953c8c-627a-4107-a3e6-764174090d8b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\sprite_63\\sprite_63.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0f14b0d5-8845-425c-bed2-6fb84f98822b",
+            "Value": {
+                "id": "177dd0a1-77cc-4f59-b947-fb421ab4fb6a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\\rLevel_3_1\\rLevel_3_1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "5c28df57-8e48-45a8-9434-f03bd671a2bf",
+            "Value": {
+                "id": "1007bb5d-cbb2-421c-a5ba-d939cb69b76a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\\39a0c0ba-a243-45e8-8f85-a0b3585fb099-room.yy",
+                "resourceType": "GMFolder"
+            }
         }
     ],
     "room_order": [
+        "0f14b0d5-8845-425c-bed2-6fb84f98822b",
         "39a0c0ba-a243-45e8-8f85-a0b3585fb099",
         "c5bc4cd9-1367-43c9-b869-b2db997705b8",
         "523b8672-eea7-47bf-b6cb-8c2e06608e02",
