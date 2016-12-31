@@ -3720,7 +3720,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "rooms\\rLevel_3_1\\rLevel_3_1.yy",
+                "resourcePath": "rooms\\rLevel_destructable\\rLevel_destructable.yy",
                 "resourceType": "GMRoom"
             }
         },
