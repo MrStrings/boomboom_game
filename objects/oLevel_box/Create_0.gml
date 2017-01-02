@@ -4,5 +4,5 @@ controller = instance_find(oLevelSelection_Controller, 0);
 relative_position = 0;
 
 accel = 1;
-vel = 2.5;
-maxVel = 15;
+vel = 7.5;
+maxVel = 40;
