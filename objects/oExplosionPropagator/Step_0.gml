@@ -6,7 +6,8 @@ current_distance = sqrt(rx*rx + ry*ry);
 
 if (current_distance > last_distance + dist_between_spawns ||
 	current_time > last_time + time_between_spawns) {
-	instance_create(x,y, oExplosion );
+	inst = instance_create(x,y, oExplosion );
+	inst.image_angle = direction;
 	last_distance = current_distance;
 	last_time = current_time;
 	
