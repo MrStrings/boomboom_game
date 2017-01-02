@@ -3875,6 +3875,44 @@
                 "resourcePath": "views\\69c825b3-e55d-4b71-86e7-8129698f7bd7-room.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "5c9dd7fc-0982-4bf4-8e27-ab0296dd4815",
+            "Value": {
+                "id": "77d64133-6209-4527-a709-cb2536c69cc2",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\\rLevel_8\\rLevel_8.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "20bcc2d2-af64-4b67-b585-fcd18c5eac94",
+            "Value": {
+                "id": "20f7dc2f-d667-4c34-9235-58a2a57cf422",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\\0f14b0d5-8845-425c-bed2-6fb84f98822b-room.yy",
+                "resourceType": "GMFolder"
+            }
         }
     ],
     "room_order": [
@@ -3886,6 +3924,7 @@
         "a4ac6808-4459-44d1-9ca0-93c3226e378d",
         "39a0c0ba-a243-45e8-8f85-a0b3585fb099",
         "0f14b0d5-8845-425c-bed2-6fb84f98822b",
+        "5c9dd7fc-0982-4bf4-8e27-ab0296dd4815",
         "c5bc4cd9-1367-43c9-b869-b2db997705b8",
         "e799b949-d059-4be5-b343-ccda1a5d801c"
     ],

@@ -3,11 +3,14 @@
 
 
 
-if (current_level > 1 && keyboard_check_pressed(vk_left)) {
+if (current_level > 1 && (keyboard_check_pressed(vk_left)
+	|| keyboard_check_pressed(ord("A")))) {
 	current_level--;
 }
 
-if (current_level < number_of_levels && keyboard_check_pressed(vk_right)) {
+if (current_level < number_of_levels &&
+	(keyboard_check_pressed(vk_right)
+	|| keyboard_check_pressed(ord("D")))) {
 	current_level++;
 }
 
