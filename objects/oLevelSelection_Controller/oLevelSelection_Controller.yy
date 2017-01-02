@@ -2,7 +2,7 @@
     "id": "9beda77f-2ddd-448e-8c0a-6b40feeb5771",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oMenu_Controller",
+    "name": "oLevelSelection_Controller",
     "eventList": [
         {
             "id": "1a8e1073-02df-4038-9d72-40f337a04012",

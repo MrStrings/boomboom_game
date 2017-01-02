@@ -1,6 +1,6 @@
 /// @description sets variables
 
-controller = instance_find(oMenu_Controller, 0);
+controller = instance_find(oLevelSelection_Controller, 0);
 relative_position = 0;
 
 accel = 1;

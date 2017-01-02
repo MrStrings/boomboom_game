@@ -3796,7 +3796,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\\oMenu_Controller\\oMenu_Controller.yy",
+                "resourcePath": "objects\\oLevelSelection_Controller\\oLevelSelection_Controller.yy",
                 "resourceType": "GMObject"
             }
         },
