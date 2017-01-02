@@ -1,7 +1,7 @@
 /// @description generates elements
 
 
-number_of_levels = 7;
+number_of_levels = room_last;
 
 level_offset = 100;
 
