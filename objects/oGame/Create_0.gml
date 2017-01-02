@@ -15,3 +15,5 @@ global.resolution_height = 576;
 global.camera_width = 640;
 global.camera_height = 360;
 
+global.pause = false;
+
