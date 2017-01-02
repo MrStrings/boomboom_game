@@ -3913,6 +3913,25 @@
                 "resourcePath": "views\\0f14b0d5-8845-425c-bed2-6fb84f98822b-room.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "cf5a4126-2a72-4bb0-9034-7759d980d2d2",
+            "Value": {
+                "id": "16c56721-b255-4f8b-a536-db2325cb6080",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oPause\\oPause.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [
