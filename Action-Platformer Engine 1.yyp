@@ -3932,6 +3932,25 @@
                 "resourcePath": "objects\\oPause\\oPause.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "2f4f8544-b197-40a6-be83-f8a31c5b1782",
+            "Value": {
+                "id": "b0f65071-cc37-4c64-92fd-2223908cfd64",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oSave\\oSave.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [
