@@ -17,3 +17,7 @@ global.camera_height = 360;
 
 global.pause = false;
 
+global.number_of_levels = 10;
+
+global.current_level_prog = 1;
+
