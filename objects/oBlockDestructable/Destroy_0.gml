@@ -3,7 +3,7 @@
 
 var ww = sprite_get_width(sprite_index);
 var hh = sprite_get_height(sprite_index);
-var chunck = irandom_range(2, 6);
+var chunck = irandom_range(4, 8);
 
 
 for(i = 0; i < ww; i += chunck) {

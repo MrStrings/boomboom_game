@@ -4065,6 +4065,25 @@
                 "resourcePath": "scripts\\SaveGame\\SaveGame.yy",
                 "resourceType": "GMScript"
             }
+        },
+        {
+            "Key": "43fc43e8-f651-460a-ae42-06eab4935a1f",
+            "Value": {
+                "id": "46794e8c-75c4-4454-ad08-79bc900c0d7e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oColectableTime\\oColectableTime.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [
