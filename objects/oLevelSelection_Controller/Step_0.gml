@@ -3,15 +3,15 @@
 
 
 
-if (current_level > 1 && (keyboard_check_pressed(vk_left)
+if (currentLevel > 1 && (keyboard_check_pressed(vk_left)
 	|| keyboard_check_pressed(ord("A")))) {
-	current_level--;
+	currentLevel--;
 }
 
-if (current_level < number_of_levels &&
+if (currentLevel < number_of_levels &&
 	(keyboard_check_pressed(vk_right)
 	|| keyboard_check_pressed(ord("D")))) {
-	current_level++;
+	currentLevel++;
 }
 
 //Por enquanto, isso ta comentado pra facilitar os testes
@@ -21,6 +21,7 @@ if (current_level < number_of_levels &&
 
 if (keyboard_check_pressed(vk_space) ||
 	keyboard_check_pressed(vk_return)) {
-	
-	room_goto(current_level);	
+	global.current_level = currentLevel;
+	show_debug_message("Level: " + string(global.current_level))
+	room_goto(currentLevel);	
 }

@@ -2428,7 +2428,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\\oCoin\\oCoin.yy",
+                "resourcePath": "objects\\oColectable\\oColectable.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2452,9 +2452,9 @@
             }
         },
         {
-            "Key": "e799b949-d059-4be5-b343-ccda1a5d801c",
+            "Key": "cc8395ce-19da-42fe-b06a-d2ce109b7ad6",
             "Value": {
-                "id": "df91a3e5-e37f-4cdc-8315-d1a7d0ea9349",
+                "id": "109637d4-1d3e-4c48-bddc-381bf1e8d164",
                 "modelName": "GMResourceInfo",
                 "mvc": "1.0",
                 "configDeltaFiles": [
@@ -2466,8 +2466,8 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "rooms\\rmTest\\rmTest.yy",
-                "resourceType": "GMRoom"
+                "resourcePath": "objects\\oInitGame\\oInitGame.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3511,7 +3511,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "rooms\\rLevel_1_1\\rLevel_1_1.yy",
+                "resourcePath": "rooms\\rLevel_10\\rLevel_10.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -4027,6 +4027,44 @@
                 "resourcePath": "sprites\\sprite_65\\sprite_65.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "7e3ac0aa-f057-459c-bc23-210f558d6ae7",
+            "Value": {
+                "id": "912d0996-822b-460e-b70f-e3a3d8cb7f6e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\\7e3ac0aa-f057-459c-bc23-210f558d6ae7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a948dbf6-7203-4544-b79a-7e5668a46def",
+            "Value": {
+                "id": "37c546a4-82f2-460d-8e23-7087ab59a2ac",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\\SaveGame\\SaveGame.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "room_order": [
@@ -4040,10 +4078,10 @@
         "0f14b0d5-8845-425c-bed2-6fb84f98822b",
         "5c9dd7fc-0982-4bf4-8e27-ab0296dd4815",
         "889a5558-6303-440d-9216-207d066834b7",
-        "c5bc4cd9-1367-43c9-b869-b2db997705b8",
-        "e799b949-d059-4be5-b343-ccda1a5d801c"
+        "c5bc4cd9-1367-43c9-b869-b2db997705b8"
     ],
     "script_order": [
+        "a948dbf6-7203-4544-b79a-7e5668a46def",
         "ed8c2c4b-b873-4f12-9b67-7d16d4734dd7",
         "d6d39216-74f5-4e37-a614-7c1f8ec4a6f1",
         "b3e2d5e9-d5ad-42b7-91fb-128d58b37baa",

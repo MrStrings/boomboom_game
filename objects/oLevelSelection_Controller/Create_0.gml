@@ -5,7 +5,7 @@ number_of_levels = room_last;
 
 level_offset = 100;
 
-current_level = 1;
+currentLevel = 1;
 
 
 for (i = 1; i <= number_of_levels; i++) {

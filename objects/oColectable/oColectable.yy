@@ -2,28 +2,8 @@
     "id": "96d16c5b-5efc-4908-adbe-d7d70bb6b5dc",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oCoin",
+    "name": "oColectable",
     "eventList": [
-        {
-            "id": "61803bde-725d-4f1c-b433-a4bc3a52ad81",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "96d16c5b-5efc-4908-adbe-d7d70bb6b5dc"
-        },
-        {
-            "id": "fa681f9d-de3c-48f7-a208-e87717f15fcb",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "96d16c5b-5efc-4908-adbe-d7d70bb6b5dc"
-        },
         {
             "id": "dc4fd844-0439-4038-9700-8d3ebc80c4b3",
             "modelName": "GMEvent",
@@ -36,7 +16,7 @@
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "parentObjectId": "5b2dfe54-479c-462a-9bf7-11ceb62c9149",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

@@ -7,10 +7,19 @@ if (image_alpha >= 1) {
     //with (oPauseSuccess2)
     //    instance_destroy();
     
-    if (target == -1)
+    if (target == -1) {
         room_goto_next();
-    else
+		global.current_level++;
+		if(global.current_level >= global.number_of_levels)
+			global.current_level = 1;
+		if(global.current_level >= global.current_level_prog)
+			global.current_level_prog = global.current_level;
+		SaveGame();
+		show_debug_message("Level: " + string(global.current_level))
+    } 
+	else {
         room_goto(target);
+	}
 }
 
 draw_set_alpha(image_alpha);

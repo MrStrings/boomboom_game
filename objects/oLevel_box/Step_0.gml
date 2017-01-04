@@ -1,10 +1,10 @@
 /// @description Moves accordingly
 
-relative_position = Approach(relative_position, (level_num - controller.current_level)
+relative_position = Approach(relative_position, (level_num - controller.currentLevel)
 					* controller.level_offset, vel);
 
 vel = Approach(vel, maxVel, accel)
-
+ 
 x = relative_position + controller.x;
 
 if (relative_position == 0) {
