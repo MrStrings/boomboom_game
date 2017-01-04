@@ -7,7 +7,8 @@ vx = 2;
 
 // Misc //
 
-canShoot = true;
+canShoot = false;
 reloadTime = 2.0;
+alarm[0] = reloadTime * room_speed;
 
 minShootDist = random_range(500, 1000);

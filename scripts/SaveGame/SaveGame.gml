@@ -14,7 +14,9 @@ file_text_close(file);
 
 file = file_text_open_read(working_directory + "save.txt");
 
+var i=0;
 while(!file_text_eof(file)) {
-	show_debug_message(string(file_text_read_real(file)));
+	i++;
+	show_debug_message("Collected: " + string(i) + string(file_text_read_real(file)));
 	
 }

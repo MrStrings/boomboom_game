@@ -23,7 +23,7 @@ if(file == -1) {
 		file_text_write_real(file, 0)
 	}
 }
-else {
+ else {
 	global.current_level_prog = file_text_read_real(file);
 	
 	for(var i = 1; i <= global.number_of_levels; i++) {

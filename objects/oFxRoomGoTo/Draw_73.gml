@@ -8,7 +8,8 @@ if (image_alpha >= 1) {
     //    instance_destroy();
     
     if (target == -1) {
-        room_goto_next();
+		if(room == room_last) room_goto(room_first);
+        else room_goto_next();
 		global.current_level++;
 		if(global.current_level >= global.number_of_levels)
 			global.current_level = 1;
