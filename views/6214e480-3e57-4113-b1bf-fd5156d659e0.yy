@@ -13,7 +13,8 @@
         "0b588afc-cc37-47da-83ad-42ad083687f9",
         "a50f3565-7669-4b6e-a5e4-8c14b36c7474",
         "9b3bd475-2992-4db7-bee3-288f18ee7366",
-        "54902ba4-2aec-4cc2-a510-1927ed9dfab1"
+        "54902ba4-2aec-4cc2-a510-1927ed9dfab1",
+        "fdf21ed2-5e5f-40ea-9128-57f132a8795f"
     ],
     "filterType": "GMObject",
     "folderName": "Terrain",

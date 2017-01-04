@@ -4084,6 +4084,44 @@
                 "resourcePath": "objects\\oColectableTime\\oColectableTime.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "6c1132db-da25-43a5-b4ba-77b4cf0ab410",
+            "Value": {
+                "id": "30d61a92-70e6-42ba-81eb-8b12ce9b8985",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\sPlatformDestroy\\sPlatformDestroy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fdf21ed2-5e5f-40ea-9128-57f132a8795f",
+            "Value": {
+                "id": "2a53271f-3e0f-4259-9f57-9c89274b705d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oPlatDestr\\oPlatDestr.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [
