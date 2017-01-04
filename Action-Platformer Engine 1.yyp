@@ -3951,6 +3951,82 @@
                 "resourcePath": "objects\\oSave\\oSave.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "889a5558-6303-440d-9216-207d066834b7",
+            "Value": {
+                "id": "65352bb8-87ff-4848-954d-fa8dd08f3a96",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\\rLevel_9\\rLevel_9.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "cdb5b1f6-0b12-425c-9b6d-e6bf0d178144",
+            "Value": {
+                "id": "8d981f29-6ad7-4b95-88bd-53661d0b5583",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\\5c9dd7fc-0982-4bf4-8e27-ab0296dd4815-room.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "54902ba4-2aec-4cc2-a510-1927ed9dfab1",
+            "Value": {
+                "id": "0ce6ecef-b502-4148-892c-8bd2b62f2847",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oBlockExplosible\\oBlockExplosible.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6b3f9ed8-cb24-48a0-bdc3-543fea0b7fd9",
+            "Value": {
+                "id": "36bb6622-69c9-407c-82fc-6a6b16331132",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\sprite_65\\sprite_65.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "room_order": [
@@ -3963,6 +4039,7 @@
         "39a0c0ba-a243-45e8-8f85-a0b3585fb099",
         "0f14b0d5-8845-425c-bed2-6fb84f98822b",
         "5c9dd7fc-0982-4bf4-8e27-ab0296dd4815",
+        "889a5558-6303-440d-9216-207d066834b7",
         "c5bc4cd9-1367-43c9-b869-b2db997705b8",
         "e799b949-d059-4be5-b343-ccda1a5d801c"
     ],
