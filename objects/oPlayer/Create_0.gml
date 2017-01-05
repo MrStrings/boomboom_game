@@ -24,6 +24,7 @@ reloadTime = 0.85;
 
 clingTime   = 2.0;
 airFricForGravity = 0.01;
+dir = 0;
 
 vx_aux = 0;
 vy_aux = 0;

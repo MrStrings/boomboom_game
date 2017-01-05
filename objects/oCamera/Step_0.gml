@@ -25,12 +25,18 @@ if(instance_exists(oPlayer)) {
 						-(camera_get_view_width(view_camera[0]) / 2) + x +  irandom_range(-5 - global.shake/2, 5 + global.shake/2), 
 						-(camera_get_view_height(view_camera[0]) / 2) + y +  irandom_range(-5 - global.shake/2, 5 + global.shake/2));
 		global.shake--;
+		
+		if(global.input_device = global.gamepad) 
+			gamepad_set_vibration(0, 0.5, 0.5);
+		
 	}
 	else {
 		camera_set_view_pos(
 						view_camera[0], 
 						-(camera_get_view_width(view_camera[0]) / 2) + x, 
 						-(camera_get_view_height(view_camera[0]) / 2) + y);
+		
+		gamepad_set_vibration(0, 0, 0);
 	}
 
 }  

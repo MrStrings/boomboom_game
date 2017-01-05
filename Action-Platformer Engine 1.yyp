@@ -4141,6 +4141,25 @@
                 "resourcePath": "rooms\\rLevel_11\\rLevel_11.yy",
                 "resourceType": "GMRoom"
             }
+        },
+        {
+            "Key": "dab1239c-33bb-4ecb-865b-901d05dbc063",
+            "Value": {
+                "id": "3f2075c6-2757-4868-9257-01935e600d1d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\\GamepadCheckInput\\GamepadCheckInput.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "room_order": [
@@ -4158,6 +4177,7 @@
         "e968a803-acfa-47af-bc7a-ff0d346db76a"
     ],
     "script_order": [
+        "dab1239c-33bb-4ecb-865b-901d05dbc063",
         "a948dbf6-7203-4544-b79a-7e5668a46def",
         "ed8c2c4b-b873-4f12-9b67-7d16d4734dd7",
         "d6d39216-74f5-4e37-a614-7c1f8ec4a6f1",

@@ -2,21 +2,38 @@
 
 // Input //////////////////////////////////////////////////////////////////////
 
-var kLeft, kRight, kUp, kDown, kshoot, kJump, kJumpRelease, kAction, kBlock, kRollL, kRollR, tempAccel, tempFric;
+var kXAxis, kYAxis, kLeft, kRight, kUp, kDown, kshoot, kJump, kJumpRelease, kAction, kBlock, kRollL, kRollR, tempAccel, tempFric;
 
 kLeft        = keyboard_check(ord("A"))  || gamepad_axis_value(0, gp_axislh) < -0.4;
 kRight       = keyboard_check(ord("D")) || gamepad_axis_value(0, gp_axislh) >  0.4;
 kUp          = keyboard_check(ord("W"))    || gamepad_axis_value(0, gp_axislv) < -0.4;
 kDown        = keyboard_check(ord("S"))  || gamepad_axis_value(0, gp_axislv) >  0.4;
 
-kJump        = keyboard_check_pressed(vk_space)  || gamepad_button_check_pressed(0, gp_face1);
+kXAxis		 = gamepad_axis_value(0, gp_axisrh);
+kYAxis		 = gamepad_axis_value(0, gp_axisrv);
+
+kJump        = keyboard_check_pressed(vk_space)  || gamepad_button_check_pressed(0, gp_shoulderlb) || gamepad_button_check_pressed(0, gp_face1);
 kJumpRelease = keyboard_check_released(ord("Z")) || gamepad_button_check_released(0, gp_face1);
 
-kAction      = keyboard_check_pressed(ord("X"))  || gamepad_button_check_pressed(0, gp_face3);
-kBlock       = keyboard_check(ord("C"))          || gamepad_button_check(0, gp_face2);
-kRollL       = keyboard_check_pressed(ord("Q"))  || gamepad_button_check_pressed(0, gp_shoulderlb);
-kRollR       = keyboard_check_pressed(ord("E"))  || gamepad_button_check_pressed(0, gp_shoulderrb);
-kshoot		 = mouse_check_button_pressed(mb_left);
+kAction      = keyboard_check_pressed(ord("X"));
+kBlock       = keyboard_check(ord("C"));
+kRollL       = keyboard_check_pressed(ord("Q"));
+kRollR       = keyboard_check_pressed(ord("E"));
+kshoot		 = mouse_check_button_pressed(mb_left) ||  gamepad_button_check_pressed(0, gp_shoulderrb);
+
+// Compute direction input
+var _x, _y;
+	if(global.input_device == global.gamepad) {
+		show_debug_message("olar")
+		_x = kXAxis + x;
+		_y = kYAxis + y;
+	}
+	else {
+		_x = mouse_x;
+		_y = mouse_y;
+	}
+	
+	dir = point_direction(x, y, _x, _y);
 
 
 if (instance_exists(oTouchCompatible)) {
@@ -240,7 +257,6 @@ blocking = kBlock;
 //shoot
 if (kshoot and canShoot) {
 	
-	dir = point_direction(x, y, mouse_x, mouse_y);
 	instance_create(x + 20 * cos(degtorad(dir)) ,
 	y - 20 * sin(degtorad(dir)), oRocket);
 	
