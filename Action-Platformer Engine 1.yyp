@@ -4255,6 +4255,63 @@
                 "resourcePath": "sprites\\sDoorOpened\\sDoorOpened.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "ba10b3de-8a49-4899-880c-dde191d17ce9",
+            "Value": {
+                "id": "ad18d320-65b5-4005-978f-9cd7d23cc1c5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\\ba10b3de-8a49-4899-880c-dde191d17ce9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4be55091-c600-4e8b-a0da-a1cfb4cbc270",
+            "Value": {
+                "id": "73ac4932-e727-44d0-a612-5a4bd23d7151",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\sTile\\sTile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "058f9698-0d8b-4f07-b0d1-396451d7a815",
+            "Value": {
+                "id": "ef2d05ad-da82-4e76-8ee5-1b8841d7e48c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "tilesets\\tTerrain\\tTerrain.yy",
+                "resourceType": "GMTileSet"
+            }
         }
     ],
     "room_order": [
