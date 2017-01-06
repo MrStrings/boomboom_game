@@ -4169,8 +4169,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_20B00508",
-                    "x": 1432,
-                    "y": 824,
+                    "x": 1395,
+                    "y": 840,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -4181,8 +4181,8 @@
                     "name_with_no_file_rename": "inst_20B00508",
                     "objId": "5f2b66db-f839-4ff3-8395-3a598cc8572f",
                     "rotation": 0,
-                    "scaleX": -1,
-                    "scaleY": 1
+                    "scaleX": -1.5,
+                    "scaleY": 1.5
                 },
                 {
                     "id": "d5b697ba-7c6c-4ced-8611-7cfc1aa2a9fb",

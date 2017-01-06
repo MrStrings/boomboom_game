@@ -4179,6 +4179,82 @@
                 "resourcePath": "objects\\oSpike\\oSpike.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "164689a5-59a4-40d6-aef8-e893efdf2df4",
+            "Value": {
+                "id": "1274b4fb-9ce4-445b-9333-d5a59c9bf972",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\sDoorClosed\\sDoorClosed.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "175c5bc9-ff94-44f8-a157-e089c89ec8aa",
+            "Value": {
+                "id": "b2803e38-5056-4d6c-bb16-7e50ca2597c4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\\175c5bc9-ff94-44f8-a157-e089c89ec8aa.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "63635cb9-25ad-444c-8b1e-9f7b8cde8950",
+            "Value": {
+                "id": "3794b7b0-f129-47d0-a081-cb747de5f4a4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\sDoorOpening\\sDoorOpening.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1e989275-f5fa-488d-b4b8-c93eab6a02ab",
+            "Value": {
+                "id": "6b7f7421-0882-4173-bcf0-400acf538edc",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\sDoorOpened\\sDoorOpened.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "room_order": [

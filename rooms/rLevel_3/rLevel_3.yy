@@ -504,8 +504,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_485F6D1E",
-                    "x": 824,
-                    "y": 696,
+                    "x": 832,
+                    "y": 712,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -516,8 +516,8 @@
                     "name_with_no_file_rename": "inst_485F6D1E",
                     "objId": "5f2b66db-f839-4ff3-8395-3a598cc8572f",
                     "rotation": 0,
-                    "scaleX": 1,
-                    "scaleY": 1
+                    "scaleX": 2,
+                    "scaleY": 2
                 },
                 {
                     "id": "4c6a30aa-c681-44c4-a536-f26be6a5c794",
