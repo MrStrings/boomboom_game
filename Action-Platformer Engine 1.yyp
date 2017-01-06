@@ -4160,6 +4160,25 @@
                 "resourcePath": "scripts\\GamepadCheckInput\\GamepadCheckInput.yy",
                 "resourceType": "GMScript"
             }
+        },
+        {
+            "Key": "fac808bb-69e8-49ec-92b9-418d5584850b",
+            "Value": {
+                "id": "161772bb-2e3d-4362-a07a-3b76789ef6da",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oSpike\\oSpike.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [

@@ -17,8 +17,8 @@ if (currentLevel < number_of_levels &&
 }
 
 //Por enquanto, isso ta comentado pra facilitar os testes
-//if(current_level > global.current_level_prog)
-//	current_level = global.current_level_prog;
+//if(currentLevel > global.current_level_prog)
+//	currentLevel = global.current_level_prog;
 
 
 if (keyboard_check_pressed(vk_space) ||
