@@ -65,3 +65,7 @@ repeat(abs(vx)) {
     else
         vx = 0;
 }
+
+bazooka.x = x;
+bazooka.y = y;
+bazooka.image_angle = dir;

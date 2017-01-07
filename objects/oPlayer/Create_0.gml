@@ -32,6 +32,7 @@ vy_aux = 0;
 // Misc ///////////////////////////////////////////////////////////////////////
 
 canShoot = true;
+bazooka = instance_create(x, y, oBazooka);
 
 // States
 IDLE     = 10;

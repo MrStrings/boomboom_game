@@ -3,8 +3,8 @@
 
 alarm[0] = smokeDelay;
 
-var smoke = instance_create(x, y, oSmokePart)
+var smoke = instance_create_depth(x, y, depth, oSmokePart)
 
 with(smoke) {
-	image_angle = other.direction + 90
+	image_angle = other.direction + 90;
 }

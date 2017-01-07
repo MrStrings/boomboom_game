@@ -257,13 +257,13 @@ blocking = kBlock;
 //shoot
 if (kshoot and canShoot) {
 	
-	instance_create(x + 20 * cos(degtorad(dir)) ,
-	y - 20 * sin(degtorad(dir)), oRocket);
+	instance_create_depth(x + 20 * cos(degtorad(dir)) ,
+	y - 20 * sin(degtorad(dir)), depth - 1, oRocket);
 	
 	vx = (gun_kickback * cos(degtorad(dir + 180)));
 	vy = -(gun_kickback * sin(degtorad(dir+180)));
 	
-	
+	bazooka.sprite_index = sBazookaShooting;
 	canShoot = false
 	alarm[2] = room_speed * reloadTime;
 }

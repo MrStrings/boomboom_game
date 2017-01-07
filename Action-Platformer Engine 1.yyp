@@ -4806,6 +4806,63 @@
                 "resourcePath": "objects\\oSmokePart\\oSmokePart.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "1b2901d0-40bf-4d09-8243-ffa94f90ec1c",
+            "Value": {
+                "id": "d06e1f20-6570-4318-bc0c-9d2231576e98",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\sBazookaIdle\\sBazookaIdle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1e2c4045-b35c-4b27-8439-9d91bd0ea5c6",
+            "Value": {
+                "id": "3551e0d4-dcfd-4c9f-ad75-1f385deecc80",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\sBazookaShooting\\sBazookaShooting.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bb5e05f4-a4f3-43b2-8cb3-a61409dbb0bb",
+            "Value": {
+                "id": "593208c1-f87a-4f4e-8885-922b1b35903a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oBazooka\\oBazooka.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [
