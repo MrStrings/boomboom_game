@@ -4711,6 +4711,25 @@
                 "resourcePath": "sprites\\sBlockBlackBottom\\sBlockBlackBottom.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "f4358544-9bc3-4ecf-8e07-e45f2c0285da",
+            "Value": {
+                "id": "4ce22ec9-4849-4171-96e1-f8dc80728fb1",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\\f4358544-9bc3-4ecf-8e07-e45f2c0285da.yy",
+                "resourceType": "GMFolder"
+            }
         }
     ],
     "room_order": [
