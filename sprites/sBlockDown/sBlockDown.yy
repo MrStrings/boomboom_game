@@ -1,7 +1,7 @@
 {
     "id": "31255eae-3fb8-4b95-90ca-f1a25e7d7f25",
     "modelName": "GMSprite",
-    "mvc": "1.0",
+    "mvc": "1.11",
     "name": "sBlockDown",
     "For3D": false,
     "HTile": false,

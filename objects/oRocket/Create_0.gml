@@ -20,3 +20,7 @@ image_yscale = 1;
 i = 0;
 
 collided = false;
+
+image_speed = 0.5;
+image_xscale = 2;
+image_yscale = image_xscale;
