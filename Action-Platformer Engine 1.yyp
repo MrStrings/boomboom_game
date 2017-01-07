@@ -4863,6 +4863,63 @@
                 "resourcePath": "objects\\oBazooka\\oBazooka.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "54d13ce2-f3fc-4e4f-b83b-7b5e16c9edaf",
+            "Value": {
+                "id": "b3138055-49c6-40f9-984b-e15ad944d0f9",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oStompBlockRight\\oStompBlockRight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4eeccf84-a772-4780-851f-3887cc20e1a9",
+            "Value": {
+                "id": "f6494f57-d0ac-4dec-896c-a242c2998560",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oStompBlockLeft\\oStompBlockLeft.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6c3ff868-b2d9-4dc7-b58c-2cd5006b9245",
+            "Value": {
+                "id": "b62a0851-f501-4a09-9840-49c0e4ef9f39",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oStompBlockDown\\oStompBlockDown.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [
