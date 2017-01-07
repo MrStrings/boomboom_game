@@ -4730,6 +4730,82 @@
                 "resourcePath": "views\\f4358544-9bc3-4ecf-8e07-e45f2c0285da.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "badfc0fb-caae-4ba8-b160-8204273e25f7",
+            "Value": {
+                "id": "6f6956ca-b463-41dc-bc10-9d7dd1c86d74",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\sSlopeRight\\sSlopeRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3cda1b63-bc9b-41b0-b128-a32680b8a53b",
+            "Value": {
+                "id": "139a6d1e-5772-41da-a049-d25a89001bbd",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\sSlopeLeft\\sSlopeLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e4aa64b3-b04d-44ed-8069-6351994992d9",
+            "Value": {
+                "id": "a46c33f6-6680-4877-8d11-2bbe650aac93",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\sSmokePart\\sSmokePart.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e90d4e3a-4ea6-4430-bf81-16094ef94c08",
+            "Value": {
+                "id": "5fefce8d-848f-4da6-b62e-892967c5e7f5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oSmokePart\\oSmokePart.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [

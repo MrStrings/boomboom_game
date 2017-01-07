@@ -6,7 +6,8 @@
     "children": [
         "2948f85a-8024-41b1-8560-a22828ca0588",
         "546bc672-fbd0-4c09-b201-717a486d12e7",
-        "ba48c664-818e-48a7-8673-34a7641dca3e"
+        "ba48c664-818e-48a7-8673-34a7641dca3e",
+        "e4aa64b3-b04d-44ed-8069-6351994992d9"
     ],
     "filterType": "GMSprite",
     "folderName": "Explosion Related",

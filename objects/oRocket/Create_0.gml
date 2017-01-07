@@ -24,3 +24,7 @@ collided = false;
 image_speed = 0.5;
 image_xscale = 2;
 image_yscale = image_xscale;
+
+
+smokeDelay = random_range(0.15, 0.25)*room_speed
+alarm[0] = smokeDelay;
