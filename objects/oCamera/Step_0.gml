@@ -18,12 +18,19 @@ if(instance_exists(oPlayer)) {
 		x += (oPlayer.x - x) * 0.08;
 		y += (oPlayer.y - y) * 0.08;
 	}
-	
-	if(global.shake > 0) {
+}  
+
+var cameraX = -(camera_get_view_width(view_camera[0]) / 2) + x;
+var cameraY = -(camera_get_view_height(view_camera[0]) / 2) + y;
+
+cameraX = clamp(cameraX, 0, room_width - camera_get_view_width(view_camera[0]));
+cameraY = clamp(cameraY, 0, room_height - camera_get_view_height(view_camera[0]));
+
+if(global.shake > 0) {
 		camera_set_view_pos(
 						view_camera[0], 
-						-(camera_get_view_width(view_camera[0]) / 2) + x +  irandom_range(-5 - global.shake/2, 5 + global.shake/2), 
-						-(camera_get_view_height(view_camera[0]) / 2) + y +  irandom_range(-5 - global.shake/2, 5 + global.shake/2));
+						cameraX +  irandom_range(-5 - global.shake/2, 5 + global.shake/2), 
+						cameraY +  irandom_range(-5 - global.shake/2, 5 + global.shake/2));
 		global.shake--;
 		
 		if(global.input_device = global.gamepad) 
@@ -33,10 +40,8 @@ if(instance_exists(oPlayer)) {
 	else {
 		camera_set_view_pos(
 						view_camera[0], 
-						-(camera_get_view_width(view_camera[0]) / 2) + x, 
-						-(camera_get_view_height(view_camera[0]) / 2) + y);
+						cameraX, 
+						cameraY);
 		
 		gamepad_set_vibration(0, 0, 0);
 	}
-
-}  

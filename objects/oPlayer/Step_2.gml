@@ -66,6 +66,10 @@ repeat(abs(vx)) {
         vx = 0;
 }
 
+// Weapon stuff
 bazooka.x = x;
 bazooka.y = y;
 bazooka.image_angle = dir;
+
+if(x < 0 or x > room_width or y < 0 or y > room_height)
+	instance_destroy();
