@@ -4939,6 +4939,25 @@
                 "resourcePath": "rooms\\rLevel_12\\rLevel_12.yy",
                 "resourceType": "GMRoom"
             }
+        },
+        {
+            "Key": "5e7703c5-9f89-4da6-8993-9187f972c95c",
+            "Value": {
+                "id": "a1598641-3c08-4680-8b91-4889d39651f6",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\\LoadGame\\LoadGame.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "room_order": [
@@ -4959,6 +4978,7 @@
     "script_order": [
         "dab1239c-33bb-4ecb-865b-901d05dbc063",
         "a948dbf6-7203-4544-b79a-7e5668a46def",
+        "5e7703c5-9f89-4da6-8993-9187f972c95c",
         "ed8c2c4b-b873-4f12-9b67-7d16d4734dd7",
         "d6d39216-74f5-4e37-a614-7c1f8ec4a6f1",
         "b3e2d5e9-d5ad-42b7-91fb-128d58b37baa",

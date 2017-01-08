@@ -1,22 +1,13 @@
 /// SaveGame()
 
-file_delete(working_directory + "save.txt");
+ini_open("savedata.ini");
 
-file = file_text_open_append(working_directory + "save.txt");
-
-file_text_write_real(file, global.current_level_prog);
+ini_write_real("save", "level_progression", global.current_level_prog);
+show_debug_message("Level Progression: " + string(ini_read_real("save", "level_progression", -1)));
 
 for(var i = 1; i <= global.number_of_levels; i++ ) {
-	file_text_write_real(file, global.collected[i]);
+	ini_write_real("save", "level" + string(i), global.collected[i]);
+	show_debug_message("Collected " + string(i) + ": " + string(ini_read_real("save",  "level" + string(i), -1)))
 }
 
-file_text_close(file);
-
-file = file_text_open_read(working_directory + "save.txt");
-
-var i=0;
-while(!file_text_eof(file)) {
-	i++;
-	show_debug_message("Collected: " + string(i) + string(file_text_read_real(file)));
-	
-}
+ini_close();

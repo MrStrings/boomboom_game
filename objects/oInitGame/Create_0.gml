@@ -19,5 +19,7 @@ global.current_level_prog = 1;
 global.current_level	  = 1;
 
 for(var i = 1; i <= global.number_of_levels; i++) {
-	global.collected[i] = false
+	global.collected[i] = false;
 }
+
+LoadGame();
