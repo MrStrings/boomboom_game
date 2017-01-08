@@ -7,7 +7,7 @@ if (living_propagators <= 0) {
 	instance_destroy();
 }
 
-show_debug_message(string(living_propagators));
+//show_debug_message(string(living_propagators));
 
 
 //---------------------------- 1st test ------------------------------ //

@@ -4958,6 +4958,82 @@
                 "resourcePath": "scripts\\LoadGame\\LoadGame.yy",
                 "resourceType": "GMScript"
             }
+        },
+        {
+            "Key": "de7c8062-9021-40e4-ac7a-9564a3d2e697",
+            "Value": {
+                "id": "be1feb05-3768-489d-9f7c-d4795b21fc49",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oMovingPlatUp\\oMovingPlatUp.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "232c258e-3863-4ad5-ab2f-5cb402c15886",
+            "Value": {
+                "id": "47162a81-dc45-43e8-8560-f308c3c71fb9",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oRail\\oRail.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1a6ec8d7-605d-4e42-8af0-c8464fd16f13",
+            "Value": {
+                "id": "6b5bf5ac-3778-463e-a416-cab4e7c7a3af",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\sRail\\sRail.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "69dad577-95d2-4919-978b-ab95ff3503b9",
+            "Value": {
+                "id": "dd3ad63e-640e-40d9-885a-e15883bfae89",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oMovingPlatSide\\oMovingPlatSide.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [
