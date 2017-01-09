@@ -5072,6 +5072,44 @@
                 "resourcePath": "views\\73f2d466-f878-4c52-80cc-eaaf37c7a1d0.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "3c280cf8-266f-4c96-af27-4c6dd0840d03",
+            "Value": {
+                "id": "07811c4d-9bef-442e-9dce-714791846e9d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oTurret\\oTurret.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7d225435-1de4-47b8-a314-3520480d88a9",
+            "Value": {
+                "id": "3ba02dda-9aff-4c81-b1df-6cc253281e74",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\oBullet\\oBullet.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [
