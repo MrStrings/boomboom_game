@@ -11,8 +11,8 @@ if(instance_exists(oPlayer)) {
 	yTo = oPlayer.y + lengthdir_y(min(150, distance_to_point(mouse_x, mouse_y)), direction);
 
 	if(stretch) {
-		x += (xTo - x) / 10;
-		y += (yTo - y) / 10;
+		x += (xTo - x) / 6;
+		y += (yTo - y) / 6;
 	}
 	else {
 		x += (oPlayer.x - x) * 0.08;

@@ -5034,6 +5034,25 @@
                 "resourcePath": "objects\\oMovingPlatSide\\oMovingPlatSide.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "403705b1-a8a3-4dc1-b23f-4e064bb42c01",
+            "Value": {
+                "id": "f463e8e3-519a-4d90-a1b4-8b0ae5842990",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\\rLevel_13\\rLevel_13.yy",
+                "resourceType": "GMRoom"
+            }
         }
     ],
     "room_order": [
@@ -5049,7 +5068,8 @@
         "889a5558-6303-440d-9216-207d066834b7",
         "c5bc4cd9-1367-43c9-b869-b2db997705b8",
         "e968a803-acfa-47af-bc7a-ff0d346db76a",
-        "16d13f66-e033-4dd5-90a1-381dcc6419ed"
+        "16d13f66-e033-4dd5-90a1-381dcc6419ed",
+        "403705b1-a8a3-4dc1-b23f-4e064bb42c01"
     ],
     "script_order": [
         "dab1239c-33bb-4ecb-865b-901d05dbc063",

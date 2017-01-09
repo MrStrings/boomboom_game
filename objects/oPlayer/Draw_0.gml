@@ -22,30 +22,30 @@ if (!attacking) {
         case JUMP:
             // Mid jump   
             if (!(place_meeting(x, y + 2, oParSolid) && vy != 0) && vy >= -1.0 && vy <= 1.0) {  
-                if (blocking)
-                    sprite_index = sPlayerJumpMShield;
-                else
+                //if (blocking)
+                //    sprite_index = sPlayerJumpMShield;
+                //else
                     sprite_index = sPlayerJumpM;  
            } else { 
                 // Rise + fall
                 if (vy <= 0) {
-                    if (blocking)
-                        sprite_index = sPlayerJumpUShield;
-                    else  
+                    //if (blocking)
+                    //    sprite_index = sPlayerJumpUShield;
+                    //else  
                         sprite_index = sPlayerJumpU;  
                 } else {
-                    if (blocking)
-                        sprite_index = sPlayerJumpDShield;
-                    else
+                    //if (blocking)
+                    //    sprite_index = sPlayerJumpDShield;
+                    //else
                         sprite_index = sPlayerJumpD;
                 }
             }
              
             // When against a wall   
             if (cRight || cLeft)
-                if (blocking)
-                    sprite_index = sPlayerSlideShield;
-                else
+                //if (blocking)
+                //    sprite_index = sPlayerSlideShield;
+                //else
                     sprite_index = sPlayerSlide;  
         break;
         

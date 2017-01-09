@@ -196,63 +196,63 @@ else if (cLeft && !onGround)
     facing = 1;
 
 // Roll
-if (onGround && !attacking) {
-    if (state != ROLL) {
-        if (kRollL) {
-            facing = -1;
+//if (onGround && !attacking) {
+//    if (state != ROLL) {
+//        if (kRollL) {
+//            facing = -1;
             
-            image_index  = 0;
-            image_speed  = 0.5;
-            sprite_index = sPlayerRoll;
+//            image_index  = 0;
+//            image_speed  = 0.5;
+//            sprite_index = sPlayerRoll;
             
-            state = ROLL;
-        } else if (kRollR) {
-            facing = 1;
+//            state = ROLL;
+//        } else if (kRollR) {
+//            facing = 1;
             
-            image_index  = 0;
-            image_speed  = 0.5;
-            sprite_index = sPlayerRoll;
+//            image_index  = 0;
+//            image_speed  = 0.5;
+//            sprite_index = sPlayerRoll;
             
-            state = ROLL;
-        }
-    }
-}
+//            state = ROLL;
+//        }
+//    }
+//}
 
 // Roll speed
-if (state == ROLL) {
-    vx = facing * 6;
+//if (state == ROLL) {
+//    vx = facing * 6;
     
-    // Break out of roll
-    if (!onGround || (cLeft || cRight)) {
-        state = IDLE;
-        if (!attacking)
-            alarm[1] = -1;
-    }
-}
+//    // Break out of roll
+//    if (!onGround || (cLeft || cRight)) {
+//        state = IDLE;
+//        if (!attacking)
+//            alarm[1] = -1;
+//    }
+//}
     
 // Action
-if (!kBlock && kAction) {
-    if (!attacking) {
-        // Attack out of roll
-        if (onGround && state == ROLL) {
-            image_index  = 0;
-            image_speed  = 0.5;
-            sprite_index = sPlayerRollSlash;
+//if (!kBlock && kAction) {
+//    if (!attacking) {
+//        // Attack out of roll
+//        if (onGround && state == ROLL) {
+//            image_index  = 0;
+//            image_speed  = 0.5;
+//            sprite_index = sPlayerRollSlash;
             
-            alarm[1]  = 8; 
-            attacking = true;       
-        // Jab in place
-        } else /*if (onGround && !kRight && !kLeft)*/ {
-            image_index  = 0;
-            image_speed  = 0.33;
-            sprite_index = sPlayerJab;
+//            alarm[1]  = 8; 
+//            attacking = true;       
+//        // Jab in place
+//        } else /*if (onGround && !kRight && !kLeft)*/ {
+//            image_index  = 0;
+//            image_speed  = 0.33;
+//            sprite_index = sPlayerJab;
             
-            attacking = true;
-        }
-    }
-}
+//            attacking = true;
+//        }
+//    }
+//}
 
-blocking = kBlock;
+//blocking = kBlock;
 
 //shoot
 if (kshoot and canShoot) {
@@ -277,30 +277,30 @@ yscale = Approach(yscale, 1, 0.05);
 /* */
 /// Hitbox
 
-with (oPlayerAtkBox)
-    instance_destroy();
+//with (oPlayerAtkBox)
+//    instance_destroy();
 
-// Dash out of roll
-if (sprite_index == sPlayerRollSlash) {    
-    with (instance_create(x, y, oPlayerAtkBox)) {
-        bboxleft  = min(other.x + (5 * other.facing), other.x + (24 * other.facing));
-        bboxright = max(other.x + (5 * other.facing), other.x + (24 * other.facing));
+//// Dash out of roll
+//if (sprite_index == sPlayerRollSlash) {    
+//    with (instance_create(x, y, oPlayerAtkBox)) {
+//        bboxleft  = min(other.x + (5 * other.facing), other.x + (24 * other.facing));
+//        bboxright = max(other.x + (5 * other.facing), other.x + (24 * other.facing));
         
-        bboxtop    = other.y - 1;
-        bboxbottom = other.y + 8; 
-    }
-}
+//        bboxtop    = other.y - 1;
+//        bboxbottom = other.y + 8; 
+//    }
+//}
     
-// Jab
-if (sprite_index == sPlayerJab && round(image_index) > 0) {    
-    with (instance_create(x, y, oPlayerAtkBox)) {
-        bboxleft  = min(other.x + (5 * other.facing), other.x + (30 * other.facing));
-        bboxright = max(other.x + (5 * other.facing), other.x + (30 * other.facing));
+//// Jab
+//if (sprite_index == sPlayerJab && round(image_index) > 0) {    
+//    with (instance_create(x, y, oPlayerAtkBox)) {
+//        bboxleft  = min(other.x + (5 * other.facing), other.x + (30 * other.facing));
+//        bboxright = max(other.x + (5 * other.facing), other.x + (30 * other.facing));
         
-        bboxtop    = other.y - 1;
-        bboxbottom = other.y + 8; 
-    }
-}
+//        bboxtop    = other.y - 1;
+//        bboxbottom = other.y + 8; 
+//    }
+//}
 
 /* */
 /*  */
