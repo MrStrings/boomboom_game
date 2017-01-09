@@ -5053,6 +5053,25 @@
                 "resourcePath": "rooms\\rLevel_13\\rLevel_13.yy",
                 "resourceType": "GMRoom"
             }
+        },
+        {
+            "Key": "73f2d466-f878-4c52-80cc-eaaf37c7a1d0",
+            "Value": {
+                "id": "36b94c06-b157-48bc-bd7e-7218fe65d90c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\\73f2d466-f878-4c52-80cc-eaaf37c7a1d0.yy",
+                "resourceType": "GMFolder"
+            }
         }
     ],
     "room_order": [
