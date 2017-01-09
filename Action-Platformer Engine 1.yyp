@@ -3834,7 +3834,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\\sprite_64\\sprite_64.yy",
+                "resourcePath": "sprites\\sBox\\sBox.yy",
                 "resourceType": "GMSprite"
             }
         },

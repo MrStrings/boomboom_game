@@ -2,7 +2,7 @@
     "id": "21908666-f897-4c68-99ee-68145c74fc39",
     "modelName": "GMSprite",
     "mvc": "1.11",
-    "name": "sprite_64",
+    "name": "sBox",
     "For3D": false,
     "HTile": false,
     "VTile": false,
