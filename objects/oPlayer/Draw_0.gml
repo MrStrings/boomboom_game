@@ -61,4 +61,4 @@ if (onGround)
 else
     draw_sprite_ext(sprite_index, image_index, x, y, facing * xscale, yscale, 0, c_white, image_alpha);
 
-draw_sprite_ext(sAimCircle, 0, x, y, 1, 1, dir - 90, c_white, 1);
+//draw_sprite_ext(sAimCircle, 0, x, y, 1, 1, dir - 90, c_white, 1);

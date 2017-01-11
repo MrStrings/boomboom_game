@@ -22,6 +22,9 @@ repeat(abs(vy)) {
 	
 	if(y == initY) {
 		back = false;
+		vy = 0;
+		canMove = false;
+		alarm[0] = delay;
 		break;
 	}
 }

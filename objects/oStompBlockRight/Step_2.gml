@@ -22,6 +22,9 @@ repeat(abs(vx)) {
 	
 	if(x == initX) {
 		back = false;
+		canMove = false;
+		alarm[0] = delay;
+		vx = 0;
 		break;
 	}
 }
