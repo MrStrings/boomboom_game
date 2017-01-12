@@ -18,7 +18,7 @@ vxMax       = 5.50;
 vyMax       = 10.0;
 jumpHeight  = 9.00;
 gravNorm    = 1;
-gravSlide   = 0.25; 
+gravSlide   = 0.15; 
 gun_kickback = 15;
 reloadTime = 0.85;
 

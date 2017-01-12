@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 vx = 0;
-vxMax = -5.0;
+vxMax = -8.0;
 accel = 0.5;
 
 initX = x;
