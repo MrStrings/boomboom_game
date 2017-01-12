@@ -5243,6 +5243,25 @@
                 "resourcePath": "rooms\\rLevel_18\\rLevel_18.yy",
                 "resourceType": "GMRoom"
             }
+        },
+        {
+            "Key": "eaa39fde-a7cd-478c-9870-14d4f792caf4",
+            "Value": {
+                "id": "dbc5209b-83b0-4e9f-ab91-7db0d2708233",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "tilesets\\tileset_2\\tileset_2.yy",
+                "resourceType": "GMTileSet"
+            }
         }
     ],
     "room_order": [

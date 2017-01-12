@@ -1,4 +1,4 @@
-/// @description destroy itself
+/// @description destroy itself (NOT USED)
 
-instance_destroy();
+//instance_destroy();
 

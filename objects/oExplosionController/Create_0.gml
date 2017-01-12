@@ -1,7 +1,7 @@
 /// @description Init variables
 
 explosion_size_left = 1000;
-current_left = 800;
+//current_left = 800;
 
 
 // Propagates explosion
