@@ -1,6 +1,6 @@
 /// @description Init variables
 
-explosion_size_left = 1000;
+explosion_size_left = 300;
 //current_left = 800;
 
 

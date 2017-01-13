@@ -18,7 +18,3 @@ for(i = 0; i < ww; i += chunck) {
 
 
 inst = instance_create(x,y, oExplosionController);
-
-with (inst) {
-	explosion_size_left = 500;
-}

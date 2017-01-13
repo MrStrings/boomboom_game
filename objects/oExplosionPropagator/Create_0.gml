@@ -2,8 +2,8 @@
 
 
 speed = 10;
-dist_between_spawns = 12;
-time_between_spawns =1;
+dist_between_spawns = 20;
+time_between_spawns =100;
 
 x0 = x;
 y0 = y;
