@@ -6,3 +6,5 @@ vxMax = 2.0;
 accel = 0.5;
 
 invert = false;
+
+canMove = true;

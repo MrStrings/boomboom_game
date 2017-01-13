@@ -13,7 +13,7 @@ global.camera_height = 360;
 // Level Settings
 global.pause = false;
 
-global.number_of_levels = 18;
+global.number_of_levels = 20;
 
 global.current_level_prog = 1;
 global.current_level	  = 1;

@@ -5262,6 +5262,44 @@
                 "resourcePath": "tilesets\\tileset_2\\tileset_2.yy",
                 "resourceType": "GMTileSet"
             }
+        },
+        {
+            "Key": "0b8152c9-2a7f-497e-b100-bb48b7fed48d",
+            "Value": {
+                "id": "21fec5d4-66eb-4617-af45-d7dd223f4077",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\\rLevel_19\\rLevel_19.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "35780183-9519-43f5-af0a-f0b132984a94",
+            "Value": {
+                "id": "4a437fed-7729-4719-ae0e-47d0e6a36011",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\\rLevel_20\\rLevel_20.yy",
+                "resourceType": "GMRoom"
+            }
         }
     ],
     "room_order": [
@@ -5283,7 +5321,9 @@
         "372ae761-178e-41e8-9ecb-a1fbab5f8653",
         "743b23ce-7aaf-46e0-a460-b12e822ffc69",
         "e91be7a4-26d3-4b13-b1b3-5276140c46a6",
-        "1b7aaab2-e92b-485b-bb3e-a5c7e0aebc12"
+        "1b7aaab2-e92b-485b-bb3e-a5c7e0aebc12",
+        "0b8152c9-2a7f-497e-b100-bb48b7fed48d",
+        "35780183-9519-43f5-af0a-f0b132984a94"
     ],
     "script_order": [
         "dab1239c-33bb-4ecb-865b-901d05dbc063",
