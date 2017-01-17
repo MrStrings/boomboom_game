@@ -53,6 +53,10 @@ yscale = 1;
 attacking = false;
 blocking  = false;
 
+angleSnap = 45;
+_x = x + 1;
+_y = y;
+
 //fallTime = 0;
 //fallMax  = 28;
 

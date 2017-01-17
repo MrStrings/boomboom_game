@@ -7,7 +7,8 @@ if(global.input_device = global.keyboard) {
 	_y = mouse_y;
 }
 
-direction = point_direction(x, y, _x, _y);
+//direction = point_direction(x, y, _x, _y);
+//direction = SnapAngle(direction, 45);
 
 
 

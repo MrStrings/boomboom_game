@@ -10,14 +10,14 @@ if(instance_exists(oPlayer)) {
 	xTo = oPlayer.x + lengthdir_x(min(150, distance_to_point(mouse_x, mouse_y)), direction);
 	yTo = oPlayer.y + lengthdir_y(min(150, distance_to_point(mouse_x, mouse_y)), direction);
 
-	if(stretch) {
-		x += (xTo - x) / 4;
-		y += (yTo - y) / 4;
-	}
-	else {
+	//if(stretch) {
+	//	x += (xTo - x) / 4;
+	//	y += (yTo - y) / 4;
+	//}
+	//else {
 		x += (oPlayer.x - x) * 0.08;
 		y += (oPlayer.y - y) * 0.08;
-	}
+	//}
 }  
 
 var cameraX = -(camera_get_view_width(view_camera[0]) / 2) + x;

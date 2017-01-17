@@ -5300,6 +5300,25 @@
                 "resourcePath": "rooms\\rLevel_20\\rLevel_20.yy",
                 "resourceType": "GMRoom"
             }
+        },
+        {
+            "Key": "c6ca0584-c054-4fe1-947f-c834e5152bc6",
+            "Value": {
+                "id": "ecf5f7cd-cc57-46ad-b786-122a6c771d22",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\\SnapAngle\\SnapAngle.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "room_order": [
@@ -5347,7 +5366,8 @@
         "68c6fe73-b890-4952-85ec-be05c42fb3de",
         "b3af477c-a979-4380-8b84-65780ed3fc56",
         "c3474a5b-cdb6-4536-b688-0273200034b6",
-        "2dda5a58-b368-4917-9ef8-580ee49c3d2a"
+        "2dda5a58-b368-4917-9ef8-580ee49c3d2a",
+        "c6ca0584-c054-4fe1-947f-c834e5152bc6"
     ],
     "tutorial": ""
 }

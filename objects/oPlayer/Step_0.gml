@@ -2,12 +2,17 @@
 
 // Input //////////////////////////////////////////////////////////////////////
 
-var kXAxis, kYAxis, kLeft, kRight, kUp, kDown, kshoot, kJump, kJumpRelease, kAction, kBlock, kRollL, kRollR, tempAccel, tempFric;
+var kXAxis, kYAxis, kLeft, kRight, kUp, kDown, kALeft, kARight, kAUp, kADown, kshoot, kJump, kJumpRelease, kAction, kBlock, kRollL, kRollR, tempAccel, tempFric;
 
 kLeft        = keyboard_check(ord("A"))  || gamepad_axis_value(0, gp_axislh) < -0.4;
 kRight       = keyboard_check(ord("D")) || gamepad_axis_value(0, gp_axislh) >  0.4;
 kUp          = keyboard_check(ord("W"))    || gamepad_axis_value(0, gp_axislv) < -0.4;
 kDown        = keyboard_check(ord("S"))  || gamepad_axis_value(0, gp_axislv) >  0.4;
+
+kALeft        = keyboard_check(vk_left);
+kARight       = keyboard_check(vk_right);
+kAUp          = keyboard_check(vk_up);
+kADown        = keyboard_check(vk_down);
 
 kXAxis		 = gamepad_axis_value(0, gp_axisrh);
 kYAxis		 = gamepad_axis_value(0, gp_axisrv);
@@ -19,21 +24,27 @@ kAction      = keyboard_check_pressed(ord("X"));
 kBlock       = keyboard_check(ord("C"));
 kRollL       = keyboard_check_pressed(ord("Q"));
 kRollR       = keyboard_check_pressed(ord("E"));
-kshoot		 = mouse_check_button_pressed(mb_left) ||  gamepad_button_check_pressed(0, gp_shoulderrb);
+kshoot		 = mouse_check_button_pressed(mb_left) ||  gamepad_button_check_pressed(0, gp_shoulderrb) || keyboard_check(vk_shift);
 
 // Compute direction input
-var _x, _y;
 	if(global.input_device == global.gamepad) {
 		show_debug_message("olar")
 		_x = kXAxis + x;
 		_y = kYAxis + y;
 	}
 	else {
-		_x = mouse_x;
-		_y = mouse_y;
+		if((kALeft || kARight || kAUp || kADown)) {
+			if(kALeft) _x = x - 1;
+			else if(kARight) _x = x + 1;
+			else _x = x;
+			if(kAUp) _y = y - 1;
+			else if(kADown) _y = y + 1;
+			else _y = y;
+		}
 	}
 	
 	dir = point_direction(x, y, _x, _y);
+	dir = SnapAngle(dir, angleSnap);
 
 
 if (instance_exists(oTouchCompatible)) {
@@ -96,8 +107,8 @@ if (!onGround) {
         vy = Approach(vy, vyMax, gravSlide);
     } else {
         // Fall normally
-        //vy = Approach(vy, vyMax, gravNorm);
-		vy += (gravNorm + airFricForGravity * (-vy));
+        vy = Approach(vy, vyMax, gravNorm);
+		//vy += (gravNorm + airFricForGravity * (-vy));
     }
 }
 
@@ -135,31 +146,31 @@ if (!kRight && !kLeft or abs(vx) > vxMax) {
 }
        
 // Wall jump
-if (kJump && cLeft && !onGround) {
-    yscale = 1.33;
-    xscale = 0.67;
+//if (kJump && cLeft && !onGround) {
+//    yscale = 1.33;
+//    xscale = 0.67;
             
-    if (kLeft) {
-        vy = -jumpHeight * 1.2;
-        vx =  jumpHeight * .66;
-    } else {
-        vy = -jumpHeight * 1.1;
-        vx =  vxMax; 
-    }  
-}
+//    if (kLeft) {
+//        vy = -jumpHeight * 1.2;
+//        vx =  jumpHeight * .66;
+//    } else {
+//        vy = -jumpHeight * 1.1;
+//        vx =  vxMax; 
+//    }  
+//}
 
-if (kJump && cRight && !onGround) {
-    yscale = 1.33;
-    xscale = 0.67;
+//if (kJump && cRight && !onGround) {
+//    yscale = 1.33;
+//    xscale = 0.67;
     
-    if (kRight) {
-        vy = -jumpHeight * 1.2;
-        vx = -jumpHeight * .66;
-    } else {
-        vy = -jumpHeight * 1.1;
-        vx = -vxMax;
-    }  
-}
+//    if (kRight) {
+//        vy = -jumpHeight * 1.2;
+//        vx = -jumpHeight * .66;
+//    } else {
+//        vy = -jumpHeight * 1.1;
+//        vx = -vxMax;
+//    }  
+//}
  
 // Jump 
 if (kJump) { 
@@ -257,8 +268,10 @@ else if (cLeft && !onGround)
 //shoot
 if (kshoot and canShoot) {
 	
-	instance_create_depth(x + 20 * cos(degtorad(dir)) ,
+	var bul = instance_create_depth(x + 20 * cos(degtorad(dir)) ,
 	y - 20 * sin(degtorad(dir)), depth - 1, oRocket);
+	
+	bul.direction = dir;
 	
 	vx = (gun_kickback * cos(degtorad(dir + 180)));
 	vy = -(gun_kickback * sin(degtorad(dir+180)));

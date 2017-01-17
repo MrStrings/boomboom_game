@@ -1,6 +1,6 @@
 /// @description Accelerate and Collision
 
-
+image_angle = -90 + direction;
 if (speed < 25)
     speed *= (1 + delta_time/1000000 * 5)
 	
